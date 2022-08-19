@@ -39,13 +39,12 @@
     - title: Exchange Student
       institution: Michigan State University, East Lansing, MI 
       year: 2016.01 -2016.05
-
-- title: Open Source Projects
-  type: time_table
+      
+ - title: Software Packages Developed
+  type: list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/wangru25/HERMES">HERMES</a>
+      description: A software package for simultaneous topological data analysis (persistent Betti numbers) and geometric data analysis (persistent eigenvalues).
 
 - title: Honors and Awards
   type: time_table
