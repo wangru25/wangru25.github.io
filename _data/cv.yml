@@ -40,12 +40,23 @@
       institution: Michigan State University, East Lansing, MI 
       year: 2016.01 -2016.05
       
- - title: Software Packages Developed
-  type: list
+- title: Software Packages Developed
+  type: time_table
   contents:
     - title: <a href="https://github.com/wangru25/HERMES">HERMES</a>
+      year: 2021
       description: A software package for simultaneous topological data analysis (persistent Betti numbers) and geometric data analysis (persistent eigenvalues).
 
+- title: Website Developed
+  type: time_table
+  contents:
+    - title: <a href="https://users.math.msu.edu/users/weig/SARS-CoV-2_Mutation_Tracker.html">MutationTracker</a>
+      year: 2020
+      description: An interactive website for tracking SARS-CoV-2 mutations.
+    - title: <a href="https://weilab.math.msu.edu/MutationAnalyzer/">MutationAnalyzer</a>
+      year: 2021
+      description: An interactive website for analyzing Spike protein RBD mutations.
+  
 - title: Honors and Awards
   type: time_table
   contents:
