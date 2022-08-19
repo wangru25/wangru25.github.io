@@ -9,7 +9,7 @@ profile:
   image: RW.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p><a href='https://math.msu.edu/'>Department of Mathematics</a></p>
+    <p>Department of Mathematics</p>
     <p>Michigan State Univeristy</p>
     <p>619 Red Cedar Road,C113 Wells Hall</p>
     <p>East Lansing, MI, 48824</p>
