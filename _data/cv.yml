@@ -11,13 +11,13 @@
   contents:
     - title: Ph.D.
       institution: Michigan State University, East Lansing, MI 
-      year: 2017.9 - 2022.07
+      year: 09/2017 - 07/2022
       description:
         - Applied Mathematics
         - Advisor Prof. Guowei Wei
     - title: B.S.
       institution: Xi'an Jiaotong University, Xi'an, China
-      year: 2013.09 - 2017.07
+      year: 09/2013 - 07/2017
       description:
         - Mathematics and Applied Mathematics (Honors Science Program)
 
@@ -26,19 +26,19 @@
   contents:
     - title: Visiting Assistant Professor
       institution: Michigan State University, East Lansing, MI 
-      year: 2022.08 - Now
+      year: 08/2022 - Now
 
     - title: Research Assistant
       institution: Michigan State University, East Lansing, MI 
-      year: 2019.01 - 2022.08
+      year: 01/2019 - 08/2022
 
     - title: Teaching Assistant
       institution: Michigan State University, East Lansing, MI 
-      year: 2017.08 - 2018.12
+      year: 08/2017 - 12/2018
 
     - title: Exchange Student
       institution: Michigan State University, East Lansing, MI 
-      year: 2016.01 -2016.05
+      year: 01/2016 - 05/2016
       
 - title: Software Packages Developed
   type: time_table
@@ -60,25 +60,24 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2022.07
+    - year: 07/2022
       items: 
         - SIAM Conference on the Life Sciences (LS22) Travel Award
-    - year: 2022.05
+    - year: 05/2022
       items: 
         - College of Natural Science Completion Fellowship
-    - year: 2022.04
+    - year: 05/2022
       items:
         - Dr. Paul and Wilma Dressel Endowed Scholarship
-    - year: 2020.04
+    - year: 04/2020
       items:
         - Herbert T. Graham Scholarship Award
-    - year: 2019.10
+    - year: 10/2019
       items: 
       - SCMLLS Travel Support Fund 
-    - year: 2019.05
+    - year: 05/2019
       items:
       - College of Natural Science Continuation Fellowship
-      - $6,000
 
 - title: Academic Interests
   type: nested_list
