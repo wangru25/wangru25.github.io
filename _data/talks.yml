@@ -1,0 +1,99 @@
+
+- title: Invited Talks
+  type: time_table
+  contents:
+    - title: 2022 Applied Topology in Frontier Sciences on Applied, Combinatorial and Toric Topology
+      institution: Insititute for Mathematical Science (IMS), National University of Singapore
+      year: 2022.07.21
+      description: July 18th - 22th, 2022
+    - title: 2022 SIAM Conference on the Life Sciences (LS22)
+      institution: SIAM
+      year: 2022.07.12
+      description:
+        - David L. Lawrence Convention Center
+        - July 11th - 14th, 2022
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Visiting Assistant Professor
+      institution: Michigan State University, East Lansing, MI 
+      year: 2022.08 - Now
+
+    - title: Research Assistant
+      institution: Michigan State University, East Lansing, MI 
+      year: 2019.01 - 2022.08
+
+    - title: Teaching Assistant
+      institution: Michigan State University, East Lansing, MI 
+      year: 2017.08 - 2018.12
+
+    - title: Exchange Student
+      institution: Michigan State University, East Lansing, MI 
+      year: 2016.01 -2016.05
+      
+- title: Software Packages Developed
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/wangru25/HERMES">HERMES</a>
+      year: 2021
+      description: A software package for simultaneous topological data analysis (persistent Betti numbers) and geometric data analysis (persistent eigenvalues).
+
+- title: Website Developed
+  type: time_table
+  contents:
+    - title: <a href="https://users.math.msu.edu/users/weig/SARS-CoV-2_Mutation_Tracker.html">MutationTracker</a>
+      year: 2020
+      description: An interactive website for tracking SARS-CoV-2 mutations.
+    - title: <a href="https://weilab.math.msu.edu/MutationAnalyzer/">MutationAnalyzer</a>
+      year: 2021
+      description: An interactive website for analyzing Spike protein RBD mutations.
+  
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2022.07
+      items: 
+        - SIAM Conference on the Life Sciences (LS22) Travel Award ($650) 
+        - $650
+    - year: 2022.05
+      items: 
+        - College of Natural Science Completion Fellowship
+        - $10,000
+    - year: 2022.04
+      items:
+        - Dr. Paul and Wilma Dressel Endowed Scholarship
+        - $1,975
+    - year: 2020.04
+      items:
+        - Herbert T. Graham Scholarship Award
+        - $2,000 
+    - year: 2019.10
+      items: 
+      - SCMLLS Travel Support Fund 
+      - $350
+    - year: 2019.05
+      items:
+      - College of Natural Science Continuation Fellowship
+      - $6,000
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Computational Topology and Graphs
+      items: 
+        - Persistent Laplacians, Persistent Path Laplacians
+        - Geometric Graph Learning
+    - title: Mathematical Modeling of Infectious Disease
+      items:
+        - Algebraic topology model TopNetmAb for 1) predicting the transmission and evolution trajectory of SARS-CoV-2; 2) predicting the utation-induced impact for the SARS-CoV-2 vaccines and antibody therapies
+    - title: Genomics
+      items:
+        - DNA sequencing; single-nucleotide polymorphism (SNP) calling
+        - UMAP-assisted clustering of large-scale SARS-CoV-2 mutation datasets
+    - title: Machine Learning
+      items:
+        - Convolution neural network(CNN); Multitask learning; Autoencoder; Generative Adversarial network (GAN)
+        - Long Short Term Memory network (LSTM); Gated Recurrent Units (GRU) Transfer learning
+        - U-Net, Clustering
+
