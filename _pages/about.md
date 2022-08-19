@@ -17,9 +17,7 @@ news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-This is some random text -- tjos should change forntend.
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Visiting Assistant Professor of [Department of Mathematics](https://math.msu.edu/) at [Michgan State Univeristy](https://msu.edu/). My research interests broadly span
+Computational Topology and Mathematical Virology. I am primarlily interested in the Algebraic topology Genomics Analysis, Mathematical Modeling of Infecious Disease, and Machine Learning. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I obtained my PhD from Michigan State University, where I was advised by [Prof. Guowei Wei](https://users.math.msu.edu/users/weig/). I hold a Bachelors Degree from Xi'an Jiaotong University. 
