@@ -18,6 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 I am an Visiting Assistant Professor of [Department of Mathematics](https://math.msu.edu/) at [Michgan State Univeristy](https://msu.edu/). My research interests broadly span
-Computational Topology and Mathematical Virology. I am primarlily interested in the Algebraic topology Genomics Analysis, Mathematical Modeling of Infecious Disease, and Machine Learning. 
+Computational Topology and Mathematical Virology. I am primarlily interested in the Algebraic topology, Genomics Analysis, Mathematical Modeling of Infecious Disease, and Machine Learning. 
 
 I obtained my PhD from Michigan State University, where I was advised by [Prof. Guowei Wei](https://users.math.msu.edu/users/weig/). I hold a Bachelors Degree from Xi'an Jiaotong University. 
