@@ -1,34 +1,38 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Wei":
+  - firstname: ["Guowei", "Guo-Wei", "G.W"]
+    url: https://users.math.msu.edu/users/weig/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Chen":
+  - firstname: ["Jiahui", "J."]
+    url: https://scholar.google.com/citations?user=C6LBu7MAAAAJ&hl=en
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Gao":
+  - firstname: ["Kaifu", "K."]
+    url: https://scholar.google.com/citations?user=nW5a-cQAAAAJ&hl=en
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
+"Nguyen": 
+  - firstname: ["Duc Duy", "D.D.", "DD"]
     url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Yin":
+  - firstname: ["Changchun","C."]
+    url: https://scholar.google.com/citations?user=pj2TGwoAAAAJ&hl=en
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Tong":
+  - firstname: ["Yiying","Y."]
+    url: http://www.cse.msu.edu/~ytong/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
+"Zheng":
+  - firstname: ["Yong-Hui","Yonghui","Y.H."]
     url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Qiu":
+  - firstname: ["Yuchi","Y."]
+    url: https://scholar.google.com/citations?user=JC-IJDAAAAAJ&hl=en
+
+"Tepe":
+  - firstname: ["Jetze J","JJ","Jetze J."]
+    url: https://scholar.google.com/citations?user=_DtCKxcAAAAJ&hl=en
