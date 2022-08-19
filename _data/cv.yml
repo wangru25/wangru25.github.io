@@ -2,114 +2,96 @@
   type: map
   contents:
     - name: Full Name
-      value: Rui Wang
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
     - name: Languages
-      value: Chinese, English
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: Michigan State University, East Lansing, MI 
-      year: 2017.9 - 2022.07
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - Applied Mathematics
-        - Advisor Prof. Guowei Wei
-
-    - title: BS
-      institution: Xi'an Jiaotong University, Xi'an, China
-      year: 2013.09 - 2017.07
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - Mathematics and Applied Mathematics(Honors Science Program)
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Visiting Assistant Professor
-      institution: Michigan State University, East Lansing, MI 
-      year: 2022.08 - Now
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
+      description:
+        - Description 1.
+        - Description 2.
 
-    - title: Research Assistant
-      institution: Michigan State University, East Lansing, MI 
-      year: 2019.01 - 2022.08
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
 
-    - title: Teaching Assistant
-      institution: Michigan State University, East Lansing, MI 
-      year: 2017.08 - 2018.12
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
+      description:
 
-    - title: Exchange Student
-      institution: Michigan State University, East Lansing, MI 
-      year: 2016.01 -2016.05
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
 
-- title: SOFTWARE PACKAGES DEVELOPED
-  type: list
+- title: Open Source Projects
+  type: time_table
   contents:
-    - title: <a href="https://github.com/wangru25/HERMES">HERMES</a>
-      description: A software package for simultaneous topological data analysis (persistent Betti numbers) and geometric data analysis (persistent eigenvalues).
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: WEBSITE DEVELOPED
-  type: list
-  contents:
-    - title: <a href="https://users.math.msu.edu/users/weig/SARS-CoV-2_Mutation_Tracker.html">MutationTracker</a>
-      description: An interactive website for tracking SARS-CoV-2 mutations
-    - title: <a href="https://weilab.math.msu.edu/MutationAnalyzer/">MutationAnalyzer</a>
-      description: An interactive website for analyzing Spike protein RBD mutations
-  
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2022.07
+    - year: 1921
       items: 
-        - SIAM Conference on the Life Sciences (LS22) Travel Award ($650) 
-        - $650
-    - year: 2022.05
+        - Nobel Prize in Physics 
+        - Matteucci Medal
+    - year: 2029
       items: 
-        - College of Natural Science Completion Fellowship
-        - $10,000
-    - year: 2022.04
-      items:
-        - Dr. Paul and Wilma Dressel Endowed Scholarship
-        - $1,975
-    - year: 2020.04
-      items:
-        - Herbert T. Graham Scholarship Award
-        - $2,000 
-    - year: 2019.10
-      items: 
-      - SCMLLS Travel Support Fund 
-      - $350
-    - year: 2019.05
-      items:
-      - College of Natural Science Continuation Fellowship
-      - $6,000
-        
-       
+        - Max Planck Medal
+
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Computational Topology and Graphs
+    - title: Topic 1.
       items: 
-        - Persistent Laplacians, Persistent Path Laplacians
-        - Geometric Graph Learning
-    - title: Mathematical Modeling of Infectious Disease
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
       items:
-        - Algebraic topology model TopNetmAb for 1) predicting the transmission and evolution trajectory of SARS-CoV-2; 2) predicting the utation-induced impact for the SARS-CoV-2 vaccines and antibody therapies
-    - title: Genomics
-      items:
-        - DNA sequencing; single-nucleotide polymorphism (SNP) calling
-        - UMAP-assisted clustering of large-scale SARS-CoV-2 mutation datasets
-    - title: Machine Learning
-      items:
-        - Convolution neural network(CNN); Multitask learning; Autoencoder; Generative Adversarial network (GAN)
-        - Long Short Term Memory network (LSTM); Gated Recurrent Units (GRU) Transfer learning
-        - U-Net, Clustering
+        - Description 1.
+        - Description 2.
 
-- title: Programming Languages
+- title: Other Interests
   type: list
   contents:
-    - Python, BASH, JavaScript, MATLAB, C++, MATHEMATICS
-
-- title: Molecular Visualization and Computer Graphics Softwares
-  type: list
-  contents:
-    - VMD, PyMOL, ChimeraX, Blender, Illustrator
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
