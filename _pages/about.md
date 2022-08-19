@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://math.msu.edu/'>Department of Mathematics</a>, Michigan State Univeristy.
+subtitle: wangru25[at]msu[dot]edu
 
 profile:
   align: right
@@ -11,7 +11,7 @@ profile:
   address: >
     <p>Department of Mathematics</p>
     <p>Michigan State Univeristy</p>
-    <p>619 Red Cedar Road,C113 Wells Hall</p>
+    <p>619 Red Cedar Road, C113 WH</p>
     <p>East Lansing, MI, 48824</p>
 
 news: false  # includes a list of news items
