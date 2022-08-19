@@ -9,8 +9,9 @@ profile:
   image: RW.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>619 Red Cedar Road</p>
-    <p>C113 Wells Hall</p>
+    <p>Department of Mathematics</p>
+    <p>Michigan State Univeristy</p>
+    <p>619 Red Cedar Road,C113 Wells Hall</p>
     <p>East Lansing, MI, 48824</p>
 
 news: false  # includes a list of news items
