@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://math.msu.edu/'>Department of Mathematics</a>, Michigan State Univeristy.
 
