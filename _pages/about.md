@@ -6,7 +6,7 @@ subtitle: <a href='https://math.msu.edu/'>Department of Mathematics</a>, Michiga
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: RW_MSU.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>619 Red Cedar Road</p>
