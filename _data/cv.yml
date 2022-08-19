@@ -9,51 +9,36 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: Ph.D.
       institution: Michigan State University, East Lansing, MI 
       year: 2017.9 - 2022.07
       description:
         - Applied Mathematics
         - Advisor Prof. Guowei Wei
-    - title: BS
+    - title: B.S.
       institution: Xi'an Jiaotong University, Xi'an, China
       year: 2013.09 - 2017.07
       description:
         - Mathematics and Applied Mathematics (Honors Science Program)
 
-
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Visiting Assistant Professor
+      institution: Michigan State University, East Lansing, MI 
+      year: 2022.08 - Now
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Research Assistant
+      institution: Michigan State University, East Lansing, MI 
+      year: 2019.01 - 2022.08
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Teaching Assistant
+      institution: Michigan State University, East Lansing, MI 
+      year: 2017.08 - 2018.12
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Exchange Student
+      institution: Michigan State University, East Lansing, MI 
+      year: 2016.01 -2016.05
 
 - title: Open Source Projects
   type: time_table
