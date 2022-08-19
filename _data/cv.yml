@@ -108,7 +108,6 @@
   type: list
   contents:
     - Python, BASH, JavaScript, MATLAB, C++, MATHEMATICS
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
 
 - title: Molecular Visualization and Computer Graphics Softwares
   type: list
