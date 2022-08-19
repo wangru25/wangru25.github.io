@@ -1,34 +1,38 @@
-
 - title: Invited Talks
   type: time_table
   contents:
-    - title: 2022 Applied Topology in Frontier Sciences on Applied, Combinatorial and Toric Topology
-      institution: Insititute for Mathematical Science (IMS), National University of Singapore
+    - title: 2022 Applied Topology in Frontier Sciences on Applied, Combinatorial and Toric Topology @ NUS
       year: 2022.07.21
-      description: July 18th - 22th, 2022
+      description: Persistent Laplacian and its applications in SARS-CoV-2
     - title: 2022 SIAM Conference on the Life Sciences (LS22)
-      institution: SIAM
       year: 2022.07.12
-      description:
-        - David L. Lawrence Convention Center
-        - July 11th - 14th, 2022
+      description: Persistent Spectral Graphs and COVID-19 Related Research
 
-- title: Experience
+
+- title: Senimar and Webinar
   type: time_table
   contents:
-    - title: Visiting Assistant Professor
-      institution: Michigan State University, East Lansing, MI 
-      year: 2022.08 - Now
+    - title: Mathematical Molecular Bioscience and Biophysics (MMBB) Webinar
+      year: 2022.10.25
+      description: Evolution mechanism of SARS-CoV-2 evolution
 
-    - title: Research Assistant
-      institution: Michigan State University, East Lansing, MI 
-      year: 2019.01 - 2022.08
+    - title: Computational Biology Forum @ MSU
+      year: 2021.09.08
+      description: Emerging vaccine-breakthrough SARS-CoV-2 variants
 
-    - title: Teaching Assistant
-      institution: Michigan State University, East Lansing, MI 
-      year: 2017.08 - 2018.12
+    - title: Second Graduate Student Conference':' Geometry and Topology meet Data Analysis and Machine Learning (GTDAML2021)
+      year: 2021.08.01
+      description: Persistent spectral graphs
 
-    - title: Exchange Student
-      institution: Michigan State University, East Lansing, MI 
-      year: 2016.01 -2016.05
+    - title: Computational Topology/Graph/Geometry Seminar @ MSU
+      year: 2021.06.23
+      description: Persistent spectral graphs and COVID-19 related research
+      
+    - title: Topological Data Analysis Seminar @ MSU
+      year: 2021.06.14
+      description: Persistent spectral graphs
+    
+    - title: Scientific Computing meets Machine Learning and Life Sciences Seminar @ OSU
+      year: 2019.10.7
+      description: Graph neural network for protein-ligand predictions (Poster)
       
