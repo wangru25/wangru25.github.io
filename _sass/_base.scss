@@ -5,16 +5,16 @@
 // Typography
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
-  color: var(--global-text-color);
+  color: var(--global-text-color); font-family: Palatino;
 }
 
 hr {
-  border-top: 1px solid var(--global-divider-color);
+  border-top: 1px solid var(--global-divider-color); font-family: Palatino;
 }
 
 table {
   td, th {
-    color: var(--global-text-color);
+    color: var(--global-text-color); font-family: Palatino;
   }
   td {
     font-size: 1rem;
@@ -22,7 +22,7 @@ table {
 }
 
 a, table.table a {
-  color: var(--global-theme-color);
+  color: var(--global-theme-color); font-family: Palatino;
   &:hover {
     color: var(--global-theme-color);
     text-decoration: underline;
@@ -37,7 +37,7 @@ figure, img {
 }
 
 blockquote {
-  background: var(--global-bg-color);
+  background: var(--global-bg-color); font-family: Palatino;
   border-left: 2px solid var(--global-theme-color);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
@@ -58,6 +58,7 @@ blockquote {
   margin-top: 0.75rem;
   margin-bottom: 1.5rem;
   text-align: center;
+  font-family: Palatino;
 }
 
 // Card
