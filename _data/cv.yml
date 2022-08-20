@@ -5,6 +5,8 @@
       value: Rui Wang
     - name: Languages
       value: Chinese, English
+    - name: CV PDF
+      value: <a href="../assets/pdf/RuiWangCV.pdf"><i class="fas fa-file-pdf"></i></a>
 
 - title: Education
   type: time_table

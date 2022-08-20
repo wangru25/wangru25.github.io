@@ -16,7 +16,7 @@ profile:
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 I am a Visiting Assistant Professor of [Department of Mathematics](https://math.msu.edu/) at [Michgan State University](https://msu.edu/). I completed my PhD from Department of Mathematics at Michigan State University under supervision of [Prof. Guowei Wei](https://users.math.msu.edu/users/weig/) in July 2022. I obtained my Bachelors Degree from Xi'an Jiaotong University in Mathematics and Applied Mathematics in 2017. 
 
