@@ -2,10 +2,10 @@
   type: time_table
   contents:
     - title: 2022 Applied Topology in Frontier Sciences on Applied, Combinatorial and Toric Topology @ NUS
-      year: 2022.07.21
+      year: 07/21/2022
       description: Persistent Laplacian and its applications in SARS-CoV-2
     - title: 2022 SIAM Conference on the Life Sciences (LS22)
-      year: 2022.07.12
+      year: 07/12/2022
       description: Persistent Spectral Graphs and COVID-19 Related Research
 
 
@@ -13,26 +13,26 @@
   type: time_table
   contents:
     - title: Mathematical Molecular Bioscience and Biophysics (MMBB) Webinar
-      year: 2022.10.25
+      year: 10/25/2022
       description: Evolution mechanism of SARS-CoV-2 evolution
 
     - title: Computational Biology Forum @ MSU
-      year: 2021.09.08
+      year: 09/08/2021
       description: Emerging vaccine-breakthrough SARS-CoV-2 variants
 
     - title: 'Second Graduate Student Conference: Geometry and Topology meet Data Analysis and Machine Learning (GTDAML2021)'
-      year: 2021.08.01
+      year: 08/01/2021
       description: Persistent spectral graphs
 
     - title: Computational Topology/Graph/Geometry Seminar @ MSU
-      year: 2021.06.23
+      year: 06/23/2021
       description: Persistent spectral graphs and COVID-19 related research
       
     - title: Topological Data Analysis Seminar @ MSU
-      year: 2021.06.14
+      year: 06/14/2021
       description: Persistent spectral graphs
     
     - title: Scientific Computing meets Machine Learning and Life Sciences Seminar @ OSU
-      year: 2019.10.7
+      year: 10/07/2019
       description: Graph neural network for protein-ligand predictions (Poster)
       
