@@ -79,7 +79,7 @@
       items:
       - College of Natural Science Continuation Fellowship
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
     - title: Computational Topology and Graphs
