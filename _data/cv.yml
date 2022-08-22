@@ -4,7 +4,7 @@
     - name: Full Name
       value: Rui Wang
     - name: Languages
-      value: Chinese, English
+      value: English, Chinese
     - name: CV PDF
       value: Full form of CV can be viewed here <a href="../assets/pdf/RuiWangCV.pdf"><i class="fas fa-file-pdf"></i></a>
 
@@ -104,10 +104,10 @@
 - title: Programming Languages
   type: list
   contents:
-    - Python, BASH, JavaScript, MATLAB, C++, MATHEMATICS
+    - Python, MATLAB, JavaScript, BASH, C++, MATHEMATICS
 
 - title: Molecular Visualization and Computer Graphics Softwares
   type: list
   contents:
-    - VMD, PyMOL, ChimeraX, Blender, Illustrator
+    - VMD, ChimeraX, PyMOL, Blender, Illustrator
 
