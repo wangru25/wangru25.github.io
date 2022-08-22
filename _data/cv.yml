@@ -6,7 +6,7 @@
     - name: Languages
       value: Chinese, English
     - name: CV PDF
-      value: Full form of CV can be view here <a href="../assets/pdf/RuiWangCV.pdf"><i class="fas fa-file-pdf"></i></a>
+      value: Full form of CV can be viewed here <a href="../assets/pdf/RuiWangCV.pdf"><i class="fas fa-file-pdf"></i></a>
 
 - title: Education
   type: time_table
