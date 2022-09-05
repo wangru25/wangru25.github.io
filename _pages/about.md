@@ -22,8 +22,14 @@ I am a Visiting Assistant Professor of [Department of Mathematics](https://math.
 
 My methodological research focuses on the development of mathematical tools for the descriptive and predictive modeling of biomolecules and their interactions. I have also worked on Genomics Analysis, Computational Topology, Machine Learning, and Mathematical Modeling of Infectious Diseases.
 
-<!-- 
-<h3 class="card-title font-weight-medium">Research Interests</h3>
+### My main research interests:
+* Computational Topology and Graphs
+* Mathematical Modeling of Infectious Disease
+* Genomics analysis
+* Machine Learning and Deep Learning 
+
+
+<!-- <h3 class="card-title font-weight-medium">Research Interests</h3>
 <ul class="card-text font-weight-light list-group list-group-flush">
     
 <li class="list-group-item">
@@ -37,15 +43,15 @@ My methodological research focuses on the development of mathematical tools for 
 <li class="list-group-item">
   <h5 class="font-italic">Mathematical Modeling of Infectious Disease</h5>
   <ul class="subitems">
-      <li><span class="subitem">Algebraic topology model TopNetmAb for 1) predicting the transmission and evolution trajectory of SARS-CoV-2; 2) predicting the utation-induced impact for the SARS-CoV-2 vaccines and antibody therapies</span></li>
+      <li><span class="subitem">Artificial intelligence forecasting of emerging infecious variants</span></li>
   </ul>
 </li>
 
 <li class="list-group-item">
 <h5 class="font-italic">Genomics</h5>
   <ul class="subitems">
-      <li><span class="subitem">DNA sequencing; single-nucleotide polymorphism (SNP) calling</span></li>
-      <li><span class="subitem">UMAP-assisted clustering of large-scale SARS-CoV-2 mutation datasets</span></li>
+      <li><span class="subitem">DNA sequencing</span></li>
+      <li><span class="subitem">UMAP-assisted clustering method</span></li>
   </ul>
 </li>
 

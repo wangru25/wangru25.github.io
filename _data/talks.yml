@@ -1,6 +1,9 @@
 - title: Invited Talks
   type: time_table
   contents:
+    - title: Women in Scientific Computing on Complex Physical and Biological Systems @ University of Florida (UF)
+      year:  10/23/2022
+      description: TBD 
     - title: 2022 Applied Topology in Frontier Sciences on Applied, Combinatorial and Toric Topology @ NUS
       year: 07/21/2022
       description: Persistent Laplacian and its applications in SARS-CoV-2
@@ -13,7 +16,7 @@
   type: time_table
   contents:
     - title: Mathematical Molecular Bioscience and Biophysics (MMBB) Webinar
-      year: 10/25/2022
+      year: 10/25/2021
       description: Evolution mechanism of SARS-CoV-2 evolution
 
     - title: Computational Biology Forum @ MSU

@@ -90,8 +90,8 @@
         - Geometric Graph Learning
     - title: Mathematical Modeling of Infectious Disease
       items:
-        - Algebraic topology model TopNetmAb for 1) predicting the transmission and evolution trajectory of SARS-CoV-2; 2) predicting the utation-induced impact for the SARS-CoV-2 vaccines and antibody therapies
-    - title: Genomics
+        - Artificial intelligence forecasting of emerging infecious variants
+    - title: Genomics analysis
       items:
         - DNA sequencing; single-nucleotide polymorphism (SNP) calling
         - UMAP-assisted clustering of large-scale SARS-CoV-2 mutation datasets
