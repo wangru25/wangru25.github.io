@@ -1,20 +1,10 @@
-
-<!--
- * @Author: Rui Wang
- * @Date: 2022-08-19 10:58:22
- * @LastModifiedBy: Rui Wang
- * @LastEditTime: 2022-08-19 11:31:28
- * @Email: wangru25@msu.edu
- * @FilePath: /wangru25.github.io/_pages/repositories.md
- * @Description: 
--->
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+title: Repositories
+description: 
 nav: true
-nav_order: 3
+nav_order: 7
 ---
 
 ## GitHub users
