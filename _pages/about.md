@@ -6,7 +6,7 @@ subtitle: wangru25[at]msu[dot]edu
 
 profile:
   align: right
-  image: RW.jpg
+  image: RW_nologo.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Department of Mathematics</p>
