@@ -1,6 +1,9 @@
 - title: Invited Talks
   type: time_table
   contents:
+    - title: Applied Math Seminar @ GWU (The George Washington University)
+      year:  12/09/2022
+      description: Applications of Persistent Spectral Graphs in COVID-19 
     - title: Women in Scientific Computing on Complex Physical and Biological Systems @ UF (University of Florida)
       year:  10/23/2022
       description: Applications of Persistent Spectral Graphs in COVID-19 
