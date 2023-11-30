@@ -26,11 +26,27 @@ $msugreen-color:      #18453B !default;
 
 $grey-color:          #626060 !default;
 $grey-color-light:    lighten($grey-color, 60%);
-$grey-color-dark:     #1C1C1D;
-$grey-900:            #212529;
+// $grey-color-dark:     #1C1C1D;
+$grey-color-dark:     #333333;
+// $grey-900:            #212529;
+$grey-900:            #292b2d;
+$grey-800:            #2e2e2e;
+
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
+
+
+// NYU colors
+$nyu-violet-color: #57068c !default;
+$nyu-ultra-violet-color: #8900e1 !default;
+$nyu-deep-violet-color: #330662 !default;
+$nyu-custom-deep-violet-color: #1d1c1c !default;
+$nyu-medium-violet-1-color: #702b9d !default;
+$nyu-medium-violet-2-color: #7b5aa6 !default;
+$nyu-medium-violet-3-color: #cc66ff !default;
+$nyu-light-violet-1-color: #ab82c5 !default;
+$nyu-light-violet-2-color: #eee6f3 !default;
 
 
 // Theme colors

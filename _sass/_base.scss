@@ -4,7 +4,11 @@
 
 // Typography
 
-p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
+h1, h2, h3 {
+  color: var(--global-header-color); font-family: Palatino;
+}
+
+p, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color); font-family: Palatino;
 }
 
@@ -71,7 +75,7 @@ blockquote {
   }
 
   .card-title {
-    color: var(--global-text-color);
+    color: var(--global-header-color);
   }
 
   .card-item {
@@ -134,8 +138,8 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
+  border-bottom: 1px solid var(--global-header-color);
+  background-color: var(--global-header-color);
   opacity: 0.95;
 }
 .navbar .dropdown-menu {
@@ -165,10 +169,10 @@ blockquote {
     }
   }
   .navbar-brand {
-    color: var(--global-text-color);
+    color: var(--global-bg-color);
   }
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-bg-color);
     &:hover {
       color: var(--global-hover-color);
     }
@@ -176,7 +180,7 @@ blockquote {
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       font-weight: bolder;
-      color: var(--global-theme-color);
+      color: var(--global-bg-color);
       &:hover {
         color: var(--global-hover-color);
       }
@@ -187,12 +191,12 @@ blockquote {
     font-size: 1.7rem;
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-bg-color);
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-hover-color);
         }
       }
     }
@@ -238,7 +242,7 @@ blockquote {
   padding: 0;
   border: 0;
   background-color: inherit;
-  color: var(--global-text-color);
+  color: var(--global-bg-color);
   &:hover {
     color: var(--global-hover-color);
   }
@@ -270,7 +274,7 @@ blockquote {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  background-color: var(--global-header-color);
   font-size: 0.75rem;
   .container {
     color: var(--global-footer-text-color);

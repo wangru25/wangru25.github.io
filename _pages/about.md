@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: wangru25[at]msu[dot]edu
+subtitle: rw3594[at]nyu[dot]edu or wang.rui[at]nyu[dot]edu
 
 profile:
   align: right
@@ -18,7 +18,8 @@ news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-I am a Visiting Assistant Professor of [Department of Mathematics](https://math.msu.edu/) at [Michgan State University](https://msu.edu/). I completed my PhD from Department of Mathematics at Michigan State University under supervision of [Prof. Guowei Wei](https://users.math.msu.edu/users/weig/) in July 2022. I obtained my Bachelors Degree from Xi'an Jiaotong University in Mathematics and Applied Mathematics in 2017. 
+
+I am currently an Independent Postdoctoral Fellow at [Simons Center for Computational Physical Chemistry](https://wp.nyu.edu/sccpc/) at [New York University](https://www.nyu.edu/). Prior to this, I was a Visiting Assistant Professor in the Department of Mathematics at Michigan State University, working with Prof. Guowei Wei. I hold a Bachelor's Degree from Xi'an Jiaotong University in Mathematics and Applied Mathematics, and an Applied Mathematics Ph.D. from Michigan State University.
 
 My methodological research focuses on the development of mathematical tools for the descriptive and predictive modeling of biomolecules and their interactions. I have also worked on Genomics Analysis, Computational Topology, Drug Discovery, Machine Learning, and Mathematical Modeling of Infectious Diseases.
 
@@ -27,7 +28,7 @@ My methodological research focuses on the development of mathematical tools for 
 * Mathematical Modeling of Infectious Disease
 * Drug Discovery
 * Genomics analysis
-* Machine Learning and Deep Learning 
+* Machine Learning and Deep Learning
 
 
 <!-- <h3 class="card-title font-weight-medium">Research Interests</h3>

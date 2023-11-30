@@ -1,38 +1,38 @@
-"Wei":
-  - firstname: ["Guowei", "Guo-Wei", "G.W"]
-    url: https://users.math.msu.edu/users/weig/
+# "Wei":
+#   - firstname: ["Guowei", "Guo-Wei", "G.W"]
+#     url: https://users.math.msu.edu/users/weig/
 
-"Chen":
-  - firstname: ["Jiahui", "J."]
-    url: https://scholar.google.com/citations?user=C6LBu7MAAAAJ&hl=en
+# "Chen":
+#   - firstname: ["Jiahui", "J."]
+#     url: https://scholar.google.com/citations?user=C6LBu7MAAAAJ&hl=en
 
-"Gao":
-  - firstname: ["Kaifu", "K."]
-    url: https://scholar.google.com/citations?user=nW5a-cQAAAAJ&hl=en
+# "Gao":
+#   - firstname: ["Kaifu", "K."]
+#     url: https://scholar.google.com/citations?user=nW5a-cQAAAAJ&hl=en
 
-"Nguyen": 
-  - firstname: ["Duc Duy", "D.D.", "DD"]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+# "Nguyen": 
+#   - firstname: ["Duc Duy", "D.D.", "DD"]
+#     url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+#   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+#     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"Yin":
-  - firstname: ["Changchun","C."]
-    url: https://scholar.google.com/citations?user=pj2TGwoAAAAJ&hl=en
+# "Yin":
+#   - firstname: ["Changchun","C."]
+#     url: https://scholar.google.com/citations?user=pj2TGwoAAAAJ&hl=en
 
-"Tong":
-  - firstname: ["Yiying","Y."]
-    url: http://www.cse.msu.edu/~ytong/
+# "Tong":
+#   - firstname: ["Yiying","Y."]
+#     url: http://www.cse.msu.edu/~ytong/
 
-"Zheng":
-  - firstname: ["Yong-Hui","Yonghui","Y.H."]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+# "Zheng":
+#   - firstname: ["Yong-Hui","Yonghui","Y.H."]
+#     url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
 
-"Qiu":
-  - firstname: ["Yuchi","Y."]
-    url: https://scholar.google.com/citations?user=JC-IJDAAAAAJ&hl=en
+# "Qiu":
+#   - firstname: ["Yuchi","Y."]
+#     url: https://scholar.google.com/citations?user=JC-IJDAAAAAJ&hl=en
 
-"Tepe":
-  - firstname: ["Jetze J","JJ","Jetze J."]
-    url: https://scholar.google.com/citations?user=_DtCKxcAAAAJ&hl=en
+# "Tepe":
+#   - firstname: ["Jetze J","JJ","Jetze J."]
+#     url: https://scholar.google.com/citations?user=_DtCKxcAAAAJ&hl=en
