@@ -11,7 +11,7 @@ profile:
   address: >
     <p>Simons Center for Computational Physical Chemistry</p>
     <p>New York Univeristy</p>
-    <p>24 Waverly PI, New York, NY, 10003</p>
+    <p>24 Waverly Place, New York, NY, 10003</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
