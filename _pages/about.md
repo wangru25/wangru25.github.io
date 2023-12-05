@@ -9,10 +9,9 @@ profile:
   image: RW_nologo.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Department of Mathematics</p>
-    <p>Michigan State University</p>
-    <p>619 Red Cedar Road, C113 WH</p>
-    <p>East Lansing, MI, 48824</p>
+    <p>Simons Center for Computational Physical Chemistry</p>
+    <p>New York Univeristy</p>
+    <p>24 Waverly PI, New York, NY, 10003</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

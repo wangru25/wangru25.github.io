@@ -106,6 +106,7 @@ blockquote {
     margin-top: 5px;
     font-family: "Palatino Linotype";
     p {
+      white-space: nowrap;
       display: inline-block;
       margin: 0;
     }
