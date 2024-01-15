@@ -2,23 +2,25 @@
 layout: about
 title: About
 permalink: /
-subtitle: rw3594[at]nyu[dot]edu or wang.rui[at]nyu[dot]edu
+subtitle: 
 
 profile:
   align: right
   image: RW_nologo.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Simons Center for Computational Physical Chemistry</p>
-    <p>New York Univeristy</p>
+    <p>SCCPC, New York University</p>
+    <p>Silver Center 1022I</p>
     <p>24 Waverly Place, New York, NY, 10003</p>
+    <p>Email: rw3594[at]nyu[dot]edu</p>
+    <p>Alternative Email: wang.rui[at]nyu[dot]edu</p>
 
 news: false  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am currently an Independent Postdoctoral Fellow at [Simons Center for Computational Physical Chemistry](https://wp.nyu.edu/sccpc/) at [New York University](https://www.nyu.edu/). Prior to this, I was a Visiting Assistant Professor in the Department of Mathematics at Michigan State University, working with Prof. Guowei Wei. I hold a Bachelor's Degree from Xi'an Jiaotong University in Mathematics and Applied Mathematics, and an Applied Mathematics Ph.D. from Michigan State University.
+I am currently a Postdoctoral Fellow at [Simons Center for Computational Physical Chemistry (SCCPC)](https://wp.nyu.edu/sccpc/) at [New York University](https://www.nyu.edu/). Prior to this, I was a Visiting Assistant Professor in the Department of Mathematics at Michigan State University, working with Prof. Guowei Wei. I hold a Bachelor's Degree from Xi'an Jiaotong University in Mathematics and Applied Mathematics, and an Applied Mathematics Ph.D. from Michigan State University.
 
 My methodological research focuses on the development of mathematical tools for the descriptive and predictive modeling of biomolecules and their interactions. I have also worked on Genomics Analysis, Computational Topology, Drug Discovery, Machine Learning, and Mathematical Modeling of Infectious Diseases.
 

@@ -117,7 +117,7 @@ blockquote {
   .profile {
     width: 30%;
     .address {
-      p { display: block; }
+      p { display: block; color: var(--global-header-color)}
     }
   }
 }
