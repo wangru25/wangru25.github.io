@@ -1,50 +1,75 @@
-- title: Invited Talks
+- title: Conference and Symposium Presentations
+  type: time_table
+  contents:
+    - title: 2024 SIAM Conference on Mathematics of Data Science (MDS24)
+      year:  10/21/2024
+      description: (Poster) Exploring the Power of Persistent Spectral Graphs in COVID-19 Research
+    - title: 2024 SIAM Conference on Mathematics of Data Science (MDS24)
+      year:  10/21/2024
+      description: '(Invited Talk) Math Meets AI: Leveraging Computational Topology and AI Models to Advance COVID-19 Research'
+    - title: 2024 SIAM Annual Meeting (AN24)
+      year:  07/08/2024
+      description: '(Invited Talk) Computational Topology & Machine Learning: Discovering SARS-CoV-2 Evolution and Transmission'
+    - title: 2024 SIAM Conference on the Life Sciences (LS24)
+      year:  06/10/2024
+      description: (Invited Talk) Prediction of Mutation-Induced Protein-Protein Binding Free Energy Changes Based on Computational Topology and Machine Learning
+    - title: AI for Scientific Research, NYC Metro Area AI Meets Science Conference @ New York University
+      year:  04/26/2024
+      description: (Poster) How Math and AI are Revolutionizing Biosciences
+    - title: Learning Meets Geometry, Graphs, and Networks @ LoG Conference, New York Meetups
+      year:  03/21/2024
+      description: (Poster) Exploring the Power of Persistent Spectral Graphs in COVID-19 Research
+    - title: Women in Scientific Computing on Complex Physical and Biological Systems @ UF (University of Florida)
+      year:  10/23/2022
+      description: (Invited Talk) Applications of Persistent Spectral Graphs in COVID-19 
+    - title: 2022 Applied Topology in Frontier Sciences on Applied, Combinatorial and Toric Topology @ NUS (National University of Singapore)
+      year: 07/21/2022
+      description: (Invited Talk) Persistent Laplacian and its applications in SARS-CoV-2
+    - title: 2022 SIAM Conference on the Life Sciences (LS22)
+      year: 07/12/2022
+      description: (Invited Talk) Persistent Spectral Graphs and COVID-19 Related Research
+    - title: Mathematical Molecular Bioscience and Biophysics (MMBB) Webinar
+      year: 10/25/2021
+      description: (Invited Talk) Evolution mechanism of SARS-CoV-2 evolution
+    - title: 'Second Graduate Student Conference: Geometry and Topology meet Data Analysis and Machine Learning (GTDAML2021)'
+      year: 08/01/2021
+      description: (Student talk) Persistent spectral graphs
+
+- title: Senimar Presentations
   type: time_table
   contents:
     - title: Applied Math Seminar @ GWU (The George Washington University)
       year:  12/09/2022
-      description: Applications of Persistent Spectral Graphs in COVID-19 
-    - title: Women in Scientific Computing on Complex Physical and Biological Systems @ UF (University of Florida)
-      year:  10/23/2022
-      description: Applications of Persistent Spectral Graphs in COVID-19 
-    - title: 2022 Applied Topology in Frontier Sciences on Applied, Combinatorial and Toric Topology @ NUS (National University of Singapore)
-      year: 07/21/2022
-      description: Persistent Laplacian and its applications in SARS-CoV-2
-    - title: 2022 SIAM Conference on the Life Sciences (LS22)
-      year: 07/12/2022
-      description: Persistent Spectral Graphs and COVID-19 Related Research
-
-- title: Conference Organized 
-  type: time_table
-  contents:
-    - title: 2022 SIAM Great Lakes Section Annual Meeting (GLSIAM)
-      year:  09/24/2022
-      description: Mini-Symposium titled 'Mathematical Analysis of Bio-molecular Data'
-
-- title: Senimar and Webinar
-  type: time_table
-  contents:
-    - title: Mathematical Molecular Bioscience and Biophysics (MMBB) Webinar
-      year: 10/25/2021
-      description: Evolution mechanism of SARS-CoV-2 evolution
+      description: (Invited talk) Applications of Persistent Spectral Graphs in COVID-19 
 
     - title: Computational Biology Forum @ MSU
       year: 09/08/2021
-      description: Emerging vaccine-breakthrough SARS-CoV-2 variants
-
-    - title: 'Second Graduate Student Conference: Geometry and Topology meet Data Analysis and Machine Learning (GTDAML2021)'
-      year: 08/01/2021
-      description: Persistent spectral graphs
+      description: (Student talk) Emerging vaccine-breakthrough SARS-CoV-2 variants
 
     - title: Computational Topology/Graph/Geometry Seminar @ MSU
       year: 06/23/2021
-      description: Persistent spectral graphs and COVID-19 related research
+      description: (Student talk) Persistent spectral graphs and COVID-19 related research
       
     - title: Topological Data Analysis Seminar @ MSU
       year: 06/14/2021
-      description: Persistent spectral graphs
-    
-    - title: Scientific Computing meets Machine Learning and Life Sciences Seminar @ OSU
+      description: (Student talk)  Persistent spectral graphs
+
+    - title: Scientific Computing meets Machine Learning and Life Sciences Seminar @ TTU
       year: 10/07/2019
-      description: Graph neural network for protein-ligand predictions (Poster)
+      description: (Poster) Graph neural network for protein-ligand predictions 
       
+- title: Conference/Seminar Organized 
+  type: time_table
+  contents:
+    - title: SIAM Conference on Mathematics of Data Science (MDS24)
+      year:  10/23/2024
+      description: 'Mini-Symposium title: Exploring the Intersection of Topological and Geometric Data Analysis with Biological Applications'
+    - title: Mathematical Molecular Biosciences Online Seminar
+      year:  Fall 2024
+      description: 
+    - title: Mathematical Molecular Biosciences Online Seminar
+      year:  Spring 2024
+      description: 
+    - title: 2022 SIAM Great Lakes Section Annual Meeting (GLSIAM)
+      year:  09/24/2022
+      description: Mini-Symposium titled 'Mathematical Analysis of Bio-molecular Data'
