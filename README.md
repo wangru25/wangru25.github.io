@@ -460,6 +460,15 @@ You may also use the following codes for displaying this in any other pages.
 </div>
 {% endif %}
 
+<!-- code for GitHub users -->
+{% if site.data.repositories.github_languages %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for user in site.data.repositories.github_languages %}
+    {% include repository/repo_languages.html repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}
+
 <!-- code for GitHub repositories -->
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">

@@ -1,6 +1,9 @@
 github_users:
   - wangru25
 
+github_languages:
+  - wangru25
+
 github_repos:
   - wangru25/HERMES
   - wangru25/SARS-CoV-2-Projects
