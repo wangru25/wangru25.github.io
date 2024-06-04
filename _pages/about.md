@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: |
   Simons Center Postdoctoral Fellow @ NYU
-  Office: Waverly Building, 24 Waverly Place, Room 1022I, New York, 10003
+  Office: Waverly Building 1022I, 24 Waverly Place, New York, 10003
   Contact: <a href="mailto:rw3594@nyu.edu">rw3594[at]nyu[dot]edu</a> or <a href="mailto:wang.rui@nyu.edu">wang.rui[at]nyu[dot]edu</a>
 
 profile:
