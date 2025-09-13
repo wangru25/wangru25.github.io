@@ -1,6 +1,18 @@
 - title: Conference and Symposium Presentations
   type: time_table
   contents:
+    - title: ICERM workshop (Fostering Cross-Disciplinary Collaboration in Biology, Medicine, and Computational Science) at Brown University, Providence, RI
+      year:  07/29/2025
+      description: '(Poster) Topological Deep Learning for peptide-protein complex prediction'
+    - title: AI4Chemistry Summit at New York University, NY
+      year:  06/25/2025
+      description: '(Contributed Talk) Topological Deep Learning for RNA, Protein Interactions, and COVID-19 Variant Prediction'
+    - title: SIAM SEAS 2025 at University of Tennessee Knoxville, TN
+      year:  03/22/2025
+      description: '(Invited Talk) Topological Deep Learning for RNA, Protein Interactions, and COVID-19 Variant Prediction'
+    - title: 2025 Joint Mathematics Meetings (JMM25)
+      year:  01/10/2025
+      description: '(Contributed Talk) Computational Topology-Driven Machine Learning Models for Protein-Protein Binding Free Energy and RNA-like Structure Predictions'
     - title: 2024 SIAM Conference on Mathematics of Data Science (MDS24)
       year:  10/21/2024
       description: (Poster) Exploring the Power of Persistent Spectral Graphs in COVID-19 Research
@@ -38,6 +50,15 @@
 - title: Senimar Presentations
   type: time_table
   contents:
+    - title: Math Department Seminar, Pennsylvania State University, PA
+      year:  09/30/2025
+      description: '(Invited Talk by Prof. Wenrui Hao) Topological Deep Learning for COVID-19 variants prediction, RNA motif design, and DockQ prediction'
+    - title: Math Department Seminar, University of Arkansas, AK
+      year:  08/26/2025
+      description: '(Invited Talk by Prof. Jiahui Chen) Topological Deep Learning for COVID-19 variants prediction, RNA motif design, and DockQ prediction'
+    - title: Data Sciences - Applied Math (IDA) Seminar, Colorado State University
+      year:  04/24/2025
+      description: '(Invited Talk by Prof. Yongcheng Zhou) Topological deep learning for COVID-19 variants prediction, RNA motif design, and DockQ prediction'
     - title: Applied Math Seminar @ GWU (The George Washington University)
       year:  12/09/2022
       description: (Invited talk) Applications of Persistent Spectral Graphs in COVID-19 

@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: |
   Simons Center Postdoctoral Fellow @ NYU
-  Office: Waverly Building 1022I, 24 Waverly Place, New York, 10003
+  Office: Silver Building 1022I, 24 Waverly Place, New York, 10003
   Contact: <a href="mailto:rw3594@nyu.edu">rw3594[at]nyu[dot]edu</a> or <a href="mailto:wang.rui@nyu.edu">wang.rui[at]nyu[dot]edu</a>
 
 profile:
@@ -24,7 +24,8 @@ social: false  # includes social icons at the bottom of the page
 ---
 I am currently a Postdoctoral Fellow at [Simons Center for Computational Physical Chemistry (SCCPC)](https://wp.nyu.edu/sccpc/) at [New York University](https://www.nyu.edu/). Prior to this, I was a Visiting Assistant Professor in the Department of Mathematics at Michigan State University, working with [Prof. Guowei Wei](https://users.math.msu.edu/users/weig/). I hold a Bachelor's Degree from Xi'an Jiaotong University in Mathematics and Applied Mathematics, and an Applied Mathematics Ph.D. from Michigan State University.
 
-My previous research mainly focused on developing mathematical tools for descriptive and predictive modeling of biomolecules and their interactions. Currently, my interests include computational topology and graphs, mathematical modeling of infectious diseases, RNA design, single-cell RNA sequencing, drug discovery, machine learning, and genomics analysis.
+<!-- My previous research mainly focused on developing mathematical tools for descriptive and predictive modeling of biomolecules and their interactions. Currently, my interests include computational topology and graphs, mathematical modeling of infectious diseases, RNA motif design, drug discovery, machine learning, and genomics analysis. -->
+My research focuses on innovating mathematical models to describe biological processes and design vaccines/treatments by leveraging machine learning (ML) tools. My interests include computational topology and graphs, mathematical modeling of infectious diseases, RNA motif design, drug discovery, protein-peptide docking prediction, and genomics analysis.
 
 <!-- ### Research Interests
 * Computational Topology and Graphs

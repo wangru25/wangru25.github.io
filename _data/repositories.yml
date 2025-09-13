@@ -6,9 +6,11 @@ github_languages:
 
 github_repos:
   - wangru25/HERMES
-  - wangru25/SARS-CoV-2-Projects
-  - wangru25/HermesBio
+  # - wangru25/SARS-CoV-2-Projects
+  # - wangru25/HermesBio
   - wangru25/MachineLearningTutorial
   - WeilabMSU/TopNetmAb
   - wangru25/SGNC
+  - XDaiNYU/TopoDockQ
+  - wangru25/PSGRNAClustering
   

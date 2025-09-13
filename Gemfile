@@ -13,7 +13,7 @@ group :jekyll_plugins do
     gem 'jekyll-target-blank'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
+    # gem 'mini_racer'  # Commented out due to compatibility issues on Apple Silicon
     gem 'unicode_utils'
     gem 'webrick'
 end
