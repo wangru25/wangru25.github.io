@@ -193,7 +193,7 @@ defaults:
 jekyll-minifier:
   exclude: ['robots.txt']
   uglifier_args:
-    harmony: true
+    # harmony option is deprecated, removed to eliminate warnings
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
