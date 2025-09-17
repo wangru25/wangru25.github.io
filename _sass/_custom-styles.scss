@@ -1,0 +1,403 @@
+/*******************************************************************************
+ * Custom Modern Styles for Academic Website
+ * Add these styles to enhance the visual appeal and user experience
+ ******************************************************************************/
+
+// =============================================================================
+// 1. SMOOTH ANIMATIONS & TRANSITIONS
+// =============================================================================
+
+// Global smooth transitions
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+// Page load animation
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Apply fade-in animation to main content
+.main-content {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+// =============================================================================
+// 2. ENHANCED CARD STYLES
+// =============================================================================
+
+// Modern card with glassmorphism effect
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  }
+}
+
+// Enhanced publication cards
+.publication-card {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }
+}
+
+// =============================================================================
+// 3. BUTTON ENHANCEMENTS
+// =============================================================================
+
+// Modern button styles
+.btn-modern {
+  background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
+  border: none;
+  border-radius: 25px;
+  padding: 12px 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+  }
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    
+    &::before {
+      left: 100%;
+    }
+  }
+}
+
+// =============================================================================
+// 4. NAVIGATION ENHANCEMENTS
+// =============================================================================
+
+// Smooth scrolling
+html {
+  scroll-behavior: smooth;
+}
+
+// Enhanced navigation
+.navbar-modern {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  
+  &.scrolled {
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  }
+}
+
+// =============================================================================
+// 5. TYPOGRAPHY ENHANCEMENTS
+// =============================================================================
+
+// Gradient text effect
+.gradient-text {
+  background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+// Enhanced headings (decorative underline removed)
+// h1, h2, h3 {
+//   position: relative;
+//   
+//   &::after {
+//     content: '';
+//     position: absolute;
+//     bottom: -5px;
+//     left: 0;
+//     width: 50px;
+//     height: 3px;
+//     background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
+//     border-radius: 2px;
+//   }
+// }
+
+// =============================================================================
+// 6. INTERACTIVE ELEMENTS
+// =============================================================================
+
+// Back to top button
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+}
+
+// =============================================================================
+// 7. LOADING ANIMATIONS
+// =============================================================================
+
+// Spinner animation
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-spinner {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #{$nyu-violet-color};
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+// =============================================================================
+// 8. RESPONSIVE IMPROVEMENTS
+// =============================================================================
+
+// Better mobile experience
+@media (max-width: 768px) {
+  .glass-card {
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .btn-modern {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .back-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+// =============================================================================
+// 9. DARK MODE SUPPORT
+// =============================================================================
+
+@media (prefers-color-scheme: dark) {
+  .glass-card {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .publication-card {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    color: white;
+  }
+}
+
+// =============================================================================
+// 10. SPECIAL EFFECTS
+// =============================================================================
+
+// Parallax effect for hero section
+.hero-parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// Hover effects for links
+a {
+  position: relative;
+  text-decoration: none;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #{$nyu-violet-color};
+    transition: width 0.3s ease;
+  }
+  
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+// =============================================================================
+// 11. CUSTOM SCROLLBAR
+// =============================================================================
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
+  border-radius: 4px;
+  
+  &:hover {
+    background: linear-gradient(45deg, #{$nyu-ultra-violet-color}, #{$nyu-violet-color});
+  }
+}
+
+// =============================================================================
+// 12. CV SECTION ENHANCEMENTS
+// =============================================================================
+
+// 移除CV页面的card边框
+.cv .card {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+// =============================================================================
+// 13. NEWS SECTION ENHANCEMENTS
+// =============================================================================
+
+.news {
+  // 强制覆盖全局表格样式
+  table.table th,
+  .news table.table th,
+  .news .table-responsive table.table th,
+  .news th.font-weight-bold {
+    // color: $nyu-light-violet-1-color!important; // 黑色，浅色模式下使用
+    color: $nyu-ultra-violet-color!important; // 黑色，浅色模式下使用
+  }
+  
+  .table-responsive {
+    // 移除边框和装饰效果
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    
+    // 强制显示滚动条 - 降低高度并强制滚动
+    overflow-y: auto !important; // 让内容决定是否滚动
+    max-height: 250px !important; // 进一步降低高度确保内容超出
+    height: auto !important; // 改为auto，让内容自然撑开
+    min-height: 250px !important; // 设置最小高度
+    
+    // 自定义滚动条样式 - 更明显的样式
+    &::-webkit-scrollbar {
+      width: 16px !important; // 更宽的滚动条
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: #e0e0e0 !important; // 更明显的轨道颜色
+      border-radius: 8px !important;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: #{$nyu-medium-violet-3-color} !important; // 使用浅紫色
+      border-radius: 8px !important;
+      border: 2px solid #e0e0e0 !important;
+      
+      &:hover {
+        background: #{$nyu-medium-violet-1-color} !important; // 悬停时稍深一点
+      }
+    }
+    
+    // 确保滚动条始终可见
+    &::-webkit-scrollbar-corner {
+      background: #f0f0f0;
+    }
+    
+    // 备用滚动条样式（Firefox等）
+    scrollbar-width: thin;
+    scrollbar-color: #{$nyu-light-violet-1-color} #e0e0e0;
+  }
+  
+  // 新闻条目样式
+  .table {
+    margin-bottom: 0;
+    width: 100%;
+    
+    th {
+      border-top: none;
+      padding: 12px 16px; // 增加内边距让内容更高
+      font-size: 0.9em;
+      font-weight: 600;
+      white-space: nowrap; // 防止换行
+    }
+    
+    td {
+      padding: 12px 16px; // 增加内边距让内容更高
+      border-top: 1px solid #f0f0f0;
+      vertical-align: top;
+      line-height: 1.5; // 增加行高
+    }
+    
+    tr:hover {
+      background-color: rgba(87, 6, 140, 0.05);
+    }
+    
+    // 确保表格内容足够高以触发滚动
+    tr {
+      min-height: 40px; // 每行最小高度
+    }
+  }
+}
