@@ -52,8 +52,10 @@ let transTheme = () => {
 let initTheme = (theme) => {
   if (theme == null || theme == 'null') {
     const userPref = window.matchMedia;
-    if (userPref && userPref('(prefers-color-scheme: light)').matches) {
-        theme = 'light';
+    if (userPref && userPref('(prefers-color-scheme: dark)').matches) {
+        theme = 'dark';
+    } else {
+        theme = 'light'; // 默认使用浅色模式
     }
   }
   
