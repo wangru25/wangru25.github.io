@@ -1,6 +1,3 @@
-{% if include.scrollable %}
-<div class="cv-time-table-scroll" style="max-height: {{ site.talks_scroll_max_height | default: '420px' }};">
-{% endif %}
 <ul class="card-text font-weight-light list-group list-group-flush">
     {% for content in entry.contents %}
       <li class="list-group-item">
@@ -60,6 +57,3 @@
       </li>
     {% endfor %}
     </ul>
-{% if include.scrollable %}
-</div>
-{% endif %}

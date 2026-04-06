@@ -22,7 +22,9 @@ layout: default
                   {% elsif entry.type == "nested_list" %}
                     {% include cv/nested_list.html %}
                   {% elsif entry.type == "time_table" %}
-                   {% include cv/time_table.html scrollable=true %}
+                  <div class="cv-time-table-scroll" style="max-height: {{ site.talks_scroll_max_height | default: '420px' }};">
+                   {% include cv/time_table.html %}
+                  </div>
                   {% else %}
                     {{ entry.contents }}
                   {% endif %}

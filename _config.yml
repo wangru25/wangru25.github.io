@@ -51,6 +51,7 @@ footer_fixed: true
 
 # Dimensions
 max_width: 1100px
+html_font_size_percent: 112.5% # baked into assets/css/main.css at build (GitHub Pages / local Jekyll)
 
 # TODO: add layout settings (single page vs. multi-page)
 
