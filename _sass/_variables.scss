@@ -50,6 +50,9 @@ $nyu-light-violet-1-color: #ab82c5 !default;
 $nyu-light-violet-2-color: #eee6f3 !default;
 
 
+// Global typography (100% ≈ browser default, typically 16px)
+$html-font-size-percent: 112.5% !default; // 112.5% → ~18px body text at default zoom
+
 // Theme colors
 
 $code-bg-color-light:     rgba($purple-color, 0.05);

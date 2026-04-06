@@ -10,7 +10,7 @@ layout: default
           </header>
 
           <article>
-            <div class="cv">
+            <div class="cv cv-year-compact">
               {% for entry in site.data.talks %}
                 <div class="card mt-3 p-3">
                   <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
@@ -22,7 +22,7 @@ layout: default
                   {% elsif entry.type == "nested_list" %}
                     {% include cv/nested_list.html %}
                   {% elsif entry.type == "time_table" %}
-                   {% include cv/time_table.html %}
+                   {% include cv/time_table.html scrollable=true %}
                   {% else %}
                     {{ entry.contents }}
                   {% endif %}

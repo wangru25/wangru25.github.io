@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Rui Wang
-    - name: Languages
-      value: English, Chinese
     - name: CV PDF
       value: Full form of CV can be viewed here <a href="../assets/pdf/RuiWangCV.pdf"><i class="fas fa-file-pdf"></i></a>
 
@@ -17,11 +15,13 @@
       description:
         - Applied Mathematics
         - Advisor Prof. Guowei Wei
+        
     - title: B.S.
       institution: Xi'an Jiaotong University, Xi'an, Shaanxi, China
       year: 09/2013 - 06/2017
       description:
         - Mathematics and Applied Mathematics (Honors Science Program)
+        - Advisor Prof. Yanni Xiao
 
 - title: Experience
   type: time_table
@@ -46,28 +46,28 @@
       institution: Michigan State University, East Lansing, MI 
       year: 01/2016 - 05/2016
       
-- title: Packages Developed
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/wangru25/SGNC">SGNC</a>
-      year: 2023
-      description: A package for designing highly druggable anti-cocaine addiction compounds using Stochastic-based Generative Network Complex.
-    - title: <a href="https://github.com/wangru25/HERMES">HERMES</a>
-      year: 2021
-      description: A package for simultaneous topological data analysis (persistent Betti numbers) and geometric data analysis (persistent eigenvalues).
-    - title: <a href="https://github.com/wangru25/HERMES">Machine Learning Tutorial</a>
-      year: 2019
-      description: A series of Python coding tutorial for 16 machine learning algorithms.
+# - title: Packages Developed
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/wangru25/SGNC">SGNC</a>
+#       year: 2023
+#       description: A package for designing highly druggable anti-cocaine addiction compounds using Stochastic-based Generative Network Complex.
+#     - title: <a href="https://github.com/wangru25/HERMES">HERMES</a>
+#       year: 2021
+#       description: A package for simultaneous topological data analysis (persistent Betti numbers) and geometric data analysis (persistent eigenvalues).
+#     - title: <a href="https://github.com/wangru25/HERMES">Machine Learning Tutorial</a>
+#       year: 2019
+#       description: A series of Python coding tutorial for 16 machine learning algorithms.
     
-- title: Website Developed
-  type: time_table
-  contents:
-    - title: <a href="https://weilab.math.msu.edu/MutationAnalyzer/">MutationAnalyzer</a>
-      year: 2021
-      description: An interactive website for analyzing Spike protein RBD mutations.
-    - title: <a href="https://users.math.msu.edu/users/weig/SARS-CoV-2_Mutation_Tracker.html">MutationTracker</a>
-      year: 2020
-      description: An interactive website for tracking SARS-CoV-2 mutations.
+# - title: Website Developed
+#   type: time_table
+#   contents:
+#     - title: <a href="https://weilab.math.msu.edu/MutationAnalyzer/">MutationAnalyzer</a>
+#       year: 2021
+#       description: An interactive website for analyzing Spike protein RBD mutations.
+#     - title: <a href="https://users.math.msu.edu/users/weig/SARS-CoV-2_Mutation_Tracker.html">MutationTracker</a>
+#       year: 2020
+#       description: An interactive website for tracking SARS-CoV-2 mutations.
   
 - title: Honors and Awards
   type: time_table
@@ -94,33 +94,15 @@
       items:
       - College of Natural Science Continuation Fellowship
 
-- title: Research Interests
-  type: nested_list
-  contents:
-    - title: Computational Topology and Graphs
-      items: 
-        - Persistent Laplacians, Persistent Path Laplacians
-        - Geometric Graph Learning
-    - title: Mathematical Modeling of Infectious Disease
-      items:
-        - Artificial intelligence forecasting of emerging infecious variants
-    - title: Genomics analysis
-      items:
-        - DNA sequencing; single-nucleotide polymorphism (SNP) calling
-        - UMAP-assisted clustering of large-scale SARS-CoV-2 mutation datasets
-    - title: Machine Learning
-      items:
-        - Convolution neural network(CNN); Multitask learning; Autoencoder; Generative Adversarial network (GAN)
-        - Long Short Term Memory network (LSTM); Gated Recurrent Units (GRU) Transfer learning
-        - U-Net, Clustering
+# Research Interests: see _data/research_interests.yml (shown on About above News)
 
-- title: Programming Languages
-  type: list
-  contents:
-    - Python, MATLAB, JavaScript, BASH, C++, MATHEMATICS
+# - title: Programming Languages
+#   type: list
+#   contents:
+#     - Python, MATLAB, JavaScript, BASH, C++, MATHEMATICS
 
-- title: Molecular Visualization and Computer Graphics Softwares
-  type: list
-  contents:
-    - VMD, ChimeraX, PyMOL, Blender, Illustrator
+# - title: Molecular Visualization and Computer Graphics Softwares
+#   type: list
+#   contents:
+#     - VMD, ChimeraX, PyMOL, Blender, Illustrator
 

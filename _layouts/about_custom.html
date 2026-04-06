@@ -44,6 +44,18 @@ layout: default
             {{ content }}
           </div>
 
+          {% if page.research_interests %}
+          <div class="cv about-research-section">
+            <div class="card mt-3 p-3">
+              <h3 class="card-title">Research Interests</h3>
+              <div>
+                {% assign entry = site.data.research_interests %}
+                {% include cv/nested_list.html no_italic=true %}
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
           {% if page.news -%}
           <!-- News -->
           {%- include news.html %}

@@ -128,6 +128,16 @@ html {
 // 5. TYPOGRAPHY ENHANCEMENTS
 // =============================================================================
 
+// CV section headings: slightly above normal (500), lighter than semibold (600)
+.cv h3.card-title {
+  font-weight: 550;
+}
+
+// Page titles (Presentations, CV, blog posts, etc.)
+.post-header .post-title {
+  font-weight: 550;
+}
+
 // Gradient text effect
 .gradient-text {
   background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
@@ -313,6 +323,129 @@ a {
   background: transparent !important;
 }
 
+// Nested list: bold label (parent ul has .font-weight-light; force visible bold)
+.cv .subitems .subitem-label {
+  font-weight: 700;
+}
+
+// time_table year: fixed-width slot (badge fills the slot). CV uses a wider slot for ranges like "09/2013 - 06/2017".
+.cv .cv-year-col {
+  flex: 0 0 auto;
+}
+
+@media (min-width: 768px) {
+  .cv .cv-year-col {
+    flex: 0 0 9.25rem;
+    max-width: 9.25rem;
+  }
+
+  // Presentations (/talks/) only — narrow slots (see _layouts/talks.html)
+  .cv.cv-year-compact .cv-year-col {
+    flex: 0 0 7.75rem;
+    max-width: 7.75rem;
+  }
+}
+
+.cv .cv-year-wrap {
+  width: 9.25rem;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cv.cv-year-compact .cv-year-wrap {
+  width: 7.75rem;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.cv .cv-year-badge {
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0.5em 0.45em;
+  white-space: normal;
+  word-break: break-word;
+}
+
+// Presentations only: year like News date column (plain text, no filled badge box)
+.cv.cv-year-compact .cv-year-col {
+  text-align: left !important;
+  align-self: flex-start;
+}
+
+.cv.cv-year-compact .cv-year-badge.badge {
+  background: transparent !important;
+  background-color: transparent !important;
+  color: #{$nyu-ultra-violet-color} !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 8px 0 0 !important;
+  margin-top: 0.15rem;
+  font-size: 0.9em;
+  font-weight: 600 !important;
+  text-align: left !important;
+  white-space: nowrap;
+}
+
+// Presentations (/talks/): scrollable time_table — scrollbar matches .news .table-responsive
+.cv-time-table-scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #{$nyu-medium-violet-3-color};
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+
+    &:hover {
+      background: #{$nyu-medium-violet-1-color};
+    }
+  }
+
+  &::-webkit-scrollbar-corner {
+    background: #f0f0f0;
+  }
+
+  scrollbar-width: thin;
+  scrollbar-color: #{$nyu-light-violet-1-color} #e0e0e0;
+}
+
+// About page: Research Interests / News sit after an empty floated .profile spacer; without
+// clearing, text stays in the narrow column beside the float (~70% width).
+.post article > .cv {
+  clear: both;
+  width: 100%;
+}
+
+// About: gap between Research Interests and News (default .cv has margin-bottom: 40px + News .card has mt-3)
+.post article > .about-research-section {
+  margin-bottom: 0.5rem;
+}
+
+.post article > .news.cv > .card.mt-3 {
+  margin-top: 0 !important;
+}
+
+// Profile photo: default theme uses 30% width — too large on wide containers; cap size
+@media (min-width: 576px) {
+  .post .profile {
+    width: 30%;
+    max-width: 180px;
+  }
+}
+
 // =============================================================================
 // 13. NEWS SECTION ENHANCEMENTS
 // =============================================================================
@@ -335,11 +468,11 @@ a {
     background: transparent;
     box-shadow: none;
     
-    // 强制显示滚动条 - 降低高度并强制滚动
-    overflow-y: auto !important; // 让内容决定是否滚动
-    max-height: 250px !important; // 进一步降低高度确保内容超出
-    height: auto !important; // 改为auto，让内容自然撑开
-    min-height: 250px !important; // 设置最小高度
+    // ~7 rows visible before scrolling (was 250px ≈5 rows)
+    overflow-y: auto !important;
+    max-height: 360px !important;
+    height: auto !important;
+    min-height: 0 !important;
     
     // 自定义滚动条样式 - 更明显的样式
     &::-webkit-scrollbar {

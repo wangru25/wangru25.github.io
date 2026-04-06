@@ -1,0 +1,30 @@
+# label = bold prefix (include colon); body = rest (Markdown links OK)
+contents:
+  - title: Mathematics-aided Artificial Intelligence and Data Science
+    items:
+      - label: "Applied Topology and Topological Spectral Theory:"
+        body: "Persistent Spectral Graph; Persistent Path Laplacian"
+      - label: "Artificial Intelligence:"
+        body: "Topological Deep Learning; AutoEncoder; UMAP-assisted K-Means Clustering"
+      - label: "Data Science:"
+        body: "Topological Data Analysis; Dimensionality Reduction"
+  - title: Mathematical Modeling of Biosciences
+    items:
+      - label: "Biomolecule:"
+        body: "Persistent Topological Laplacians of Biomolecules; Curvature-based Biomolecular Surfaces"
+      - label: "Protein:"
+        body: "Graph Theory-based Flexibility-Rigidity Index (FRI) for Proteins; Stochastic Prediction of Protein B-factor"
+      - label: "Bio-Complexes:"
+        body: "Algebraic Topology-based Protein-Ligand and Protein-Protein Binding Free Energy (BFE) Prediction"
+  - title: Artificial Intelligence for Life Science (AI4LifeScience)
+    items:
+      - label: "Infectious Disease:"
+        body: "Early Prediction of Infectivity-enhanced and Vaccine-escaped Mutations (e.g., [TopNetmAb Model](https://github.com/WeilabMSU/TopNetmAb))"
+      - label: "RNA:"
+        body: "Clustering-based Top RNA-like Structure Prediction and Single-cell RNA Sequencing (e.g. [PSGRNAClustering](https://github.com/wangru25/PSGRNAClustering))"
+      - label: "Peptide:"
+        body: "Protein-peptide Complex Prediction by Topological Deep Learning Model (e.g. [TopoDockQ](https://github.com/XDaiNYU/TopoDockQ))"
+      - label: "Drug Discovery:"
+        body: "Generative AI in Drug Design for Cocaine Addiction and Opioid Dependence (e.g. [SGNC](https://github.com/wangru25/SGNC))"
+      - label: "Biomedical Imaging:"
+        body: "Quantification of Transplanted Cell in Vivo Imaging Aided by CNN and U-NET"

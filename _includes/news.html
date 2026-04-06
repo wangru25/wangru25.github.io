@@ -1,9 +1,11 @@
-          
-          <div class="news">
-            <h2>News</h2>
-            {% if site.news != blank -%} 
+
+          <div class="news cv">
+            <div class="card mt-3 p-3">
+              <h3 class="card-title">News</h3>
+              <div>
+            {% if site.news != blank -%}
             {%- assign news_size = site.news | size -%}
-            <div class="table-responsive" {% if site.news_scrollable and news_size > 3 %}style="max-height: 250px; min-height: 250px; overflow-y: auto;"{% endif %}>
+            <div class="table-responsive" {% if site.news_scrollable and news_size > 3 %}style="max-height: 360px; overflow-y: auto;"{% endif %}>
               <table class="table table-sm table-borderless">
               {%- assign news = site.news | reverse -%}
               {% if site.news_limit %}
@@ -11,22 +13,24 @@
               {% else %}
               {% assign news_limit = news_size %}
               {% endif %}
-              {% for item in news limit: news_limit %} 
+              {% for item in news limit: news_limit %}
                 <tr>
                   <!-- <th scope="row" class="font-weight-bold">{{ item.date | date: "%b %-d, %Y" }}</th> -->
-                  <th scope="row" class="font-weight-bold"">{{ item.date | date: "%m/%d/%Y" }}</th>
+                  <th scope="row" class="font-weight-bold">{{ item.date | date: "%m/%d/%Y" }}</th>
                   <td>
-                    {% if item.inline -%} 
+                    {% if item.inline -%}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                    {%- else -%} 
+                    {%- else -%}
                       <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                    {%- endif %} 
+                    {%- endif %}
                   </td>
                 </tr>
-              {%- endfor %} 
+              {%- endfor %}
               </table>
             </div>
-          {%- else -%} 
+          {%- else -%}
             <p>No news so far...</p>
-          {%- endif %} 
+          {%- endif %}
+              </div>
+            </div>
           </div>

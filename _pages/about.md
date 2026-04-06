@@ -18,6 +18,7 @@ profile:
     <p><a href="mailto:rw3594@nyu.edu">Email: rw3594[at]nyu[dot]edu</a></p> 
     <p><a href="mailto:wang.rui@nyu.edu">Alternative Email: wang.rui[at]nyu[dot]edu</a></p> 
 
+research_interests: true  # nested list above News; data in _data/research_interests.yml
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
@@ -25,47 +26,4 @@ social: false  # includes social icons at the bottom of the page
 I am currently a Postdoctoral Fellow at [Simons Center for Computational Physical Chemistry (SCCPC)](https://wp.nyu.edu/sccpc/) at [New York University](https://www.nyu.edu/). Prior to this, I was a Visiting Assistant Professor in the Department of Mathematics at Michigan State University, working with [Prof. Guowei Wei](https://users.math.msu.edu/users/weig/). I hold a Bachelor's Degree from Xi'an Jiaotong University in Mathematics and Applied Mathematics, and an Applied Mathematics Ph.D. from Michigan State University.
 
 <!-- My previous research mainly focused on developing mathematical tools for descriptive and predictive modeling of biomolecules and their interactions. Currently, my interests include computational topology and graphs, mathematical modeling of infectious diseases, RNA motif design, drug discovery, machine learning, and genomics analysis. -->
-My research focuses on innovating mathematical models to describe biological processes and design vaccines/treatments by leveraging machine learning (ML) tools. My interests include computational topology and graphs, mathematical modeling of infectious diseases, RNA motif design, drug discovery, protein-peptide docking prediction, and genomics analysis.
-
-<!-- ### Research Interests
-* Computational Topology and Graphs
-* Mathematical Modeling of Infectious Disease
-* Drug Discovery
-* Genomics analysis
-* Machine Learning and Deep Learning -->
-
-<!-- <h3 class="card-title font-weight-medium">Research Interests</h3>
-<ul class="card-text font-weight-light list-group list-group-flush">
-    
-<li class="list-group-item">
-  <h5 class="font-italic">Computational Topology and Graphs</h5>
-  <ul class="subitems">
-      <li><span class="subitem">Persistent Laplacians, Persistent Path Laplacians</span></li>
-      <li><span class="subitem">Geometric Graph Learning</span></li>
-  </ul>
-</li>
-
-<li class="list-group-item">
-  <h5 class="font-italic">Mathematical Modeling of Infectious Disease</h5>
-  <ul class="subitems">
-      <li><span class="subitem">Artificial intelligence forecasting of emerging infecious variants</span></li>
-  </ul>
-</li>
-
-<li class="list-group-item">
-<h5 class="font-italic">Genomics</h5>
-  <ul class="subitems">
-      <li><span class="subitem">DNA sequencing</span></li>
-      <li><span class="subitem">UMAP-assisted clustering method</span></li>
-  </ul>
-</li>
-
-<li class="list-group-item">
-<h5 class="font-italic">Machine Learning</h5>
-  <ul class="subitems">
-      <li><span class="subitem">Convolution neural network(CNN); Multitask learning; Autoencoder; Generative Adversarial network (GAN)</span></li>
-      <li><span class="subitem">Long Short Term Memory network (LSTM); Gated Recurrent Units (GRU) Transfer learning</span></li>
-      <li><span class="subitem">U-Net, Clustering</span></li>
-  </ul>
-</li>
-</ul> -->
+My research focuses on developing innovative mathematical methods, particularly in topological and geometric data analysis (TDA/GDA), to understand various biological processes. Combined with machine learning (ML) models, this understanding enables rapid, data-driven responses to emerging diseases by providing predictive insights for identifying effective therapeutic candidates in early-stage drug discovery. My interests include computational topology and graphs, mathematical modeling of infectious diseases, mathematical virology, RNA motif design, protein-peptide docking prediction, and genomics analysis.

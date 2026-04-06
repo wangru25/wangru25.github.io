@@ -1,6 +1,32 @@
+- title: Conference/Seminar Organized 
+  type: time_table
+  contents:
+    - title: SIAM Conference on Mathematics of Data Science (MDS24)
+      year:  10/23/2024
+      description: 'Mini-symposium title: Exploring the Intersection of Topological and Geometric Data Analysis with Biological Applications'
+    - title: Mathematical Molecular Biosciences Online Seminar
+      year:  Fall 2024
+      description: 
+    - title: Mathematical Molecular Biosciences Online Seminar
+      year:  Spring 2024
+      description: 
+    - title: 2022 SIAM Great Lakes Section Annual Meeting (GLSIAM)
+      year:  09/24/2022
+      description: Mini-symposium titled 'Mathematical Analysis of Bio-molecular Data'
+    
+
 - title: Conference and Symposium Presentations
   type: time_table
   contents:
+    - title: 2026 Joint Mathematics Meetings in Washington, D.C.
+      year:  01/07/2026
+      description: '(Invited Talk by Prof. Chris McCarthy) Computational Topology for Characterizing RNA-like Graph Motifs'
+    - title: 2026 Joint Mathematics Meetings in Washington, D.C.
+      year:  01/07/2026
+      description: '(Invited Talk by Prof. Nektarios Valous) Computational Topology Reveals the Size and Content of RNA-like Graph Motifs'
+    - title: 2026 Joint Mathematics Meetings in Washington, D.C.
+      year:  01/06/2026
+      description: '(Invited Talk by Prof. Xinyue Zhao) Topological Deep Learning for Viral Protein Mutations to Enhance Therapeutics Strategies'
     - title: ICERM workshop (Fostering Cross-Disciplinary Collaboration in Biology, Medicine, and Computational Science) at Brown University, Providence, RI
       year:  07/29/2025
       description: '(Poster) Topological Deep Learning for peptide-protein complex prediction'
@@ -50,15 +76,22 @@
 - title: Senimar Presentations
   type: time_table
   contents:
+    - title: Midwest Mathematical Biology Seminar, Purdue University, IN
+      year:  03/10/2026
+      description: '(Invited Vitural Talk by Prof. Ning Wei) Applied Topology, Topological Spectral Theory, and ML Models for Biological Applications'
+    
     - title: Math Department Seminar, Pennsylvania State University, PA
       year:  09/30/2025
       description: '(Invited Talk by Prof. Wenrui Hao) Topological Deep Learning for COVID-19 variants prediction, RNA motif design, and DockQ prediction'
+
     - title: Math Department Seminar, University of Arkansas, AK
       year:  08/26/2025
       description: '(Invited Talk by Prof. Jiahui Chen) Topological Deep Learning for COVID-19 variants prediction, RNA motif design, and DockQ prediction'
+
     - title: Data Sciences - Applied Math (IDA) Seminar, Colorado State University
       year:  04/24/2025
       description: '(Invited Talk by Prof. Yongcheng Zhou) Topological deep learning for COVID-19 variants prediction, RNA motif design, and DockQ prediction'
+
     - title: Applied Math Seminar @ GWU (The George Washington University)
       year:  12/09/2022
       description: (Invited talk) Applications of Persistent Spectral Graphs in COVID-19 
@@ -79,18 +112,3 @@
       year: 10/07/2019
       description: (Poster) Graph neural network for protein-ligand predictions 
       
-- title: Conference/Seminar Organized 
-  type: time_table
-  contents:
-    - title: SIAM Conference on Mathematics of Data Science (MDS24)
-      year:  10/23/2024
-      description: 'Mini-symposium title: Exploring the Intersection of Topological and Geometric Data Analysis with Biological Applications'
-    - title: Mathematical Molecular Biosciences Online Seminar
-      year:  Fall 2024
-      description: 
-    - title: Mathematical Molecular Biosciences Online Seminar
-      year:  Spring 2024
-      description: 
-    - title: 2022 SIAM Great Lakes Section Annual Meeting (GLSIAM)
-      year:  09/24/2022
-      description: Mini-symposium titled 'Mathematical Analysis of Bio-molecular Data'
