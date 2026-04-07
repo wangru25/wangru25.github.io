@@ -15,3 +15,17 @@ $html-font-size-percent: {{ site.html_font_size_percent | default: '112.5%' }};
   "distill",
   "custom-styles"
 ;
+
+{% comment %}
+  Fluid layout (optional): root font + container padding scale smoothly with viewport width so
+  portrait/narrow screens feel closer to your reference display — not identical on every device.
+{% endcomment %}
+{% if site.fluid_layout != false %}
+html {
+  font-size: clamp(15px, 0.5vw + 14px, 18px);
+}
+body > .container {
+  padding-left: clamp(12px, 3.5vw, 28px);
+  padding-right: clamp(12px, 3.5vw, 28px);
+}
+{% endif %}

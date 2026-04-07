@@ -52,6 +52,8 @@ footer_fixed: true
 # Dimensions
 max_width: 1100px
 html_font_size_percent: 112.5% # baked into assets/css/main.css at build (GitHub Pages / local Jekyll)
+# Smoother font + side padding across phones/tablets/desktops (CSS clamp). Set false to disable.
+fluid_layout: true
 
 # TODO: add layout settings (single page vs. multi-page)
 
