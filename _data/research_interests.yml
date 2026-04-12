@@ -21,7 +21,7 @@ contents:
       - label: "RNA Motify Design:"
         body: "[Clustering-based](https://github.com/wangru25/PSGRNAClustering) Top RNA-like Structure Prediction and Design"
       - label: "Protein-peptide Docking:"
-        body: "Enhancing Protein-peptide Complex Prediction by [Topological Deep Learning Model](https://github.com/XDaiNYU/TopoDockQ)"
+        body: "Enhancing Protein-peptide Complex Prediction by [Topological Deep Learning](https://github.com/XDaiNYU/TopoDockQ)"
       - label: "Drug Discovery:"
         body: "[Generative AI](https://github.com/wangru25/SGNC) in Drug Design for Cocaine Addiction and Opioid Dependence"
       - label: "Biomedical Imaging:"

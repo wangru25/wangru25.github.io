@@ -17,15 +17,40 @@ $html-font-size-percent: {{ site.html_font_size_percent | default: '112.5%' }};
 ;
 
 {% comment %}
-  Fluid layout (optional): root font + container padding scale smoothly with viewport width so
-  portrait/narrow screens feel closer to your reference display — not identical on every device.
+  Fluid layout (optional):
+  - Root font uses vmin so scale follows the shorter viewport edge (better portrait vs landscape on phones).
+  - Horizontal padding uses vw so side margins stay a consistent fraction of width across narrow/wide portrait devices.
 {% endcomment %}
 {% if site.fluid_layout != false %}
-html {
-  font-size: clamp(15px, 0.5vw + 14px, 18px);
+:root {
+  /* ~5% of viewport width per side (min/max caps). Min 15px matches Bootstrap’s grid gutter so .row
+     negative margins don’t pull content wider than the viewport (see .container > .row below). */
+  --page-inline-pad: clamp(15px, 5vw, 3rem);
 }
-body > .container {
-  padding-left: clamp(12px, 3.5vw, 28px);
-  padding-right: clamp(12px, 3.5vw, 28px);
+
+html {
+  font-size: clamp(15px, calc(0.42vmin + 13.5px), 18px);
+}
+
+/* Short landscape (e.g. phone sideways): avoid oversized body type when width is large but height is small */
+@media (orientation: landscape) and (max-height: 31.25rem) {
+  html {
+    font-size: clamp(14px, calc(0.4vmin + 13px), 17px);
+  }
+}
+
+body > .container,
+header .container,
+footer .container {
+  padding-left: var(--page-inline-pad);
+  padding-right: var(--page-inline-pad);
+}
+
+/* Bootstrap .row uses margin ±15px to cancel .container padding; keep that in sync when padding is fluid. */
+body > .container > .row,
+header .container > .row,
+footer .container > .row {
+  margin-left: calc(-1 * var(--page-inline-pad));
+  margin-right: calc(-1 * var(--page-inline-pad));
 }
 {% endif %}
