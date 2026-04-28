@@ -1,4 +1,4 @@
-- title: Recitations
+- title: Recitations at Michigan State University
   type: time_table
   contents:
     - title: FS22 MTH234 Section 025
@@ -15,7 +15,7 @@
         - Thursday, 3:00PM - 3:50PM, A216 WH
 
 
-- title: Small Class
+- title: Small Class at Michigan State University
   type: time_table
   contents:
     - title: SS23 MTH234 Section SCN20
@@ -24,3 +24,13 @@
         - Lecture Instructor
         - Multivariable Calculus
         - Monday, Tuesday, Thursday, 6:00PM - 7:10PM, A326 WH
+
+- title: Coding Tutorial at Michigan State University
+  type: time_table
+  contents:
+    - title: MTH994 
+      year: 09/2019 - 12/2021
+      description: 
+        - Coding Tutor
+        - Maching Learning and Deep Learning
+        - Python coding tutorial for 16 machine learning algorithms from scratch <a href="https://github.com/wangru25/MachineLearningTutorial">[Code]</a>.

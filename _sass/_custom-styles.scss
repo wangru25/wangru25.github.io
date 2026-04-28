@@ -138,6 +138,77 @@ html {
   font-weight: 550;
 }
 
+// Blog/article section headings should read as true headings
+.post h1,
+.post h2,
+.post h3 {
+  font-weight: 700;
+}
+
+// Blog posts only: make heading hierarchy visually clearer
+.post h2 {
+  font-size: 1.75rem;
+  margin-top: 1.4rem;
+}
+
+.post h3 {
+  font-size: 1.35rem;
+  margin-top: 1.1rem;
+}
+
+// Ensure Markdown bold is visibly bold inside blog posts
+.post strong,
+.post b {
+  font-weight: 700 !important;
+}
+
+// Reduce excessive gap between intro sentence and following list in posts
+.post p + ul,
+.post p + ol {
+  margin-top: -0.5rem;
+}
+
+// Boxed, collapsible table of contents for posts
+.post details.toc-box {
+  margin: 1rem 0 1.5rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--global-theme-color) 4%, var(--global-bg-color));
+}
+
+.post details.toc-box > summary {
+  display: block;
+  position: relative;
+  padding-left: 1.1rem;
+  line-height: 1.8rem;
+  cursor: pointer;
+  font-weight: 700;
+  min-height: 1.8rem;
+  margin: 0;
+}
+
+.post details.toc-box > summary::-webkit-details-marker {
+  display: none;
+}
+
+.post details.toc-box > summary::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--global-text-color-light);
+}
+
+.post details.toc-box[open] > summary::before {
+  content: "▾";
+}
+
+.post details.toc-box[open] > summary {
+  margin-bottom: 0.6rem;
+}
+
 // Gradient text effect
 .gradient-text {
   background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
