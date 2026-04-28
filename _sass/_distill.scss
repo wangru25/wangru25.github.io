@@ -25,6 +25,12 @@ d-article ul > li > ol {
   margin-top: 0.35rem;
 }
 
+// Distill article paragraph-to-list spacing: tighten gaps after intro lines
+d-article p + ul,
+d-article p + ol {
+  margin-top: -0.5rem;
+}
+
 // Distill article nested-list spacing: keep second-level bullets compact
 d-article ol > li > ul > li,
 d-article ul > li > ul > li,
