@@ -5,7 +5,7 @@
  * @Date: 2025-02-20 14:37:26
  * @LastModifiedBy: Rui Wang
  * @LastEditTime: 2025-09-13 15:10:11
- * @Email: wang.rui@nyu.edu
+ * @Email: rui.wang@rit.edu
  * @FilePath: /wangru25.github.io/_news/SIAM_LS24.md
  * @Description: 
 -->

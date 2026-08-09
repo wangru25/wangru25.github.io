@@ -24,7 +24,7 @@ layout: default
             {%- endif %}
 
             <h1 class="post-title">
-              {% if site.title == "blank" -%}<span class="font-weight-bold" style="color: var(--nyu-deep-violet-color);">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+              {% if site.title == "blank" -%}<span class="font-weight-bold" style="color: var(--global-theme-color);">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
             </h1>
             <p class="desc">{{ page.subtitle | newline_to_br }}</p>
             {%- if page.profile.address %}

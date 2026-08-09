@@ -171,10 +171,10 @@ blockquote {
     }
   }
   .navbar-brand {
-    color: var(--global-bg-color);
+    color: #{$white-color};
   }
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-bg-color);
+    color: #{$white-color};
     &:hover {
       color: var(--global-hover-color);
     }
@@ -182,7 +182,7 @@ blockquote {
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       font-weight: bolder;
-      color: var(--global-bg-color);
+      color: #{$white-color};
       &:hover {
         color: var(--global-hover-color);
       }
@@ -193,7 +193,7 @@ blockquote {
     font-size: 1.7rem;
     a {
       i::before {
-        color: var(--global-bg-color);
+        color: #{$white-color};
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {

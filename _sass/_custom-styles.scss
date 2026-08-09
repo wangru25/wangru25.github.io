@@ -69,7 +69,7 @@
 
 // Modern button styles
 .btn-modern {
-  background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
+  background: linear-gradient(45deg, #{$apple-blue-color}, #{$apple-purple-color});
   border: none;
   border-radius: 25px;
   padding: 12px 30px;
@@ -128,9 +128,19 @@ html {
 // 5. TYPOGRAPHY ENHANCEMENTS
 // =============================================================================
 
-// CV section headings: slightly above normal (500), lighter than semibold (600)
-.cv h3.card-title {
-  font-weight: 550;
+// Stronger section hierarchy on the About page only.
+.about-research-section h3.card-title,
+.news.cv h3.card-title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+@media (max-width: 575.98px) {
+  .about-research-section h3.card-title,
+  .news.cv h3.card-title {
+    font-size: 1.7rem;
+  }
 }
 
 // Page titles (Presentations, CV, blog posts, etc.)
@@ -211,7 +221,7 @@ html {
 
 // Gradient text effect
 .gradient-text {
-  background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
+  background: linear-gradient(45deg, #{$apple-blue-color}, #{$apple-purple-color});
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -229,7 +239,7 @@ html {
 //     left: 0;
 //     width: 50px;
 //     height: 3px;
-//     background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
+//     background: linear-gradient(45deg, #{$apple-blue-color}, #{$apple-purple-color});
 //     border-radius: 2px;
 //   }
 // }
@@ -245,7 +255,7 @@ html {
   right: 30px;
   width: 50px;
   height: 50px;
-  background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
+  background: linear-gradient(45deg, #{$apple-blue-color}, #{$apple-purple-color});
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -280,7 +290,7 @@ html {
 
 .loading-spinner {
   border: 3px solid #f3f3f3;
-  border-top: 3px solid #{$nyu-violet-color};
+  border-top: 3px solid #{$apple-blue-color};
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -352,7 +362,7 @@ a {
     left: 0;
     width: 0;
     height: 2px;
-    background: #{$nyu-violet-color};
+    background: #{$apple-blue-color};
     transition: width 0.3s ease;
   }
   
@@ -375,11 +385,11 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
+  background: linear-gradient(45deg, #{$apple-blue-color}, #{$apple-purple-color});
   border-radius: 4px;
   
   &:hover {
-    background: linear-gradient(45deg, #{$nyu-ultra-violet-color}, #{$nyu-violet-color});
+    background: linear-gradient(45deg, #{$apple-purple-color}, #{$apple-blue-color});
   }
 }
 
@@ -449,7 +459,7 @@ a {
 .cv.cv-year-compact .cv-year-badge.badge {
   background: transparent !important;
   background-color: transparent !important;
-  color: #{$nyu-ultra-violet-color} !important;
+  color: #{$apple-indigo-color} !important;
   border-radius: 0 !important;
   box-shadow: none !important;
   padding: 0 8px 0 0 !important;
@@ -476,12 +486,12 @@ a {
   }
 
   &::-webkit-scrollbar-thumb {
-    background: #{$nyu-medium-violet-3-color};
+    background: #{$apple-blue-color};
     border-radius: 8px;
     border: 2px solid #e0e0e0;
 
     &:hover {
-      background: #{$nyu-medium-violet-1-color};
+      background: #{$apple-indigo-color};
     }
   }
 
@@ -490,7 +500,7 @@ a {
   }
 
   scrollbar-width: thin;
-  scrollbar-color: #{$nyu-light-violet-1-color} #e0e0e0;
+  scrollbar-color: #{$apple-blue-color} #e0e0e0;
 }
 
 // About page: Research Interests / News sit after an empty floated .profile spacer; without
@@ -527,8 +537,7 @@ a {
   .news table.table th,
   .news .table-responsive table.table th,
   .news th.font-weight-bold {
-    // color: $nyu-light-violet-1-color!important; // 黑色，浅色模式下使用
-    color: $nyu-ultra-violet-color!important; // 黑色，浅色模式下使用
+    color: $apple-indigo-color !important;
   }
   
   .table-responsive {
@@ -556,12 +565,12 @@ a {
     }
     
     &::-webkit-scrollbar-thumb {
-      background: #{$nyu-medium-violet-3-color} !important; // 使用浅紫色
+      background: #{$apple-blue-color} !important;
       border-radius: 8px !important;
       border: 2px solid #e0e0e0 !important;
       
       &:hover {
-        background: #{$nyu-medium-violet-1-color} !important; // 悬停时稍深一点
+        background: #{$apple-indigo-color} !important;
       }
     }
     
@@ -572,7 +581,7 @@ a {
     
     // 备用滚动条样式（Firefox等）
     scrollbar-width: thin;
-    scrollbar-color: #{$nyu-light-violet-1-color} #e0e0e0;
+    scrollbar-color: #{$apple-blue-color} #e0e0e0;
   }
   
   // 新闻条目样式
@@ -596,7 +605,7 @@ a {
     }
     
     tr:hover {
-      background-color: rgba(87, 6, 140, 0.05);
+      background-color: rgba(0, 122, 255, 0.06);
     }
     
     // 确保表格内容足够高以触发滚动

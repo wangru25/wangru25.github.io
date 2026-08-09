@@ -26,9 +26,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Assistant Professor
+      institution: School of Mathematics and Statistics, Rochester Institute of Technology, Rochester, NY
+      year: 08/12/2026 - Present
+
     - title: Simons Center Postdoctoral Fellow
       institution: New York University, New York City, NY
-      year: 12/2023 - Present
+      year: 12/2023 - 08/07/2026
 
     - title: Visiting Assistant Professor
       institution: Michigan State University, East Lansing, MI 
@@ -72,6 +76,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 08/2026
+      items:
+        - Simons Empire Faculty Fellowship
     - year: 12/2023
       items: 
         - Simons Center Postdoctoral Fellowship
@@ -105,4 +112,3 @@
 #   type: list
 #   contents:
 #     - VMD, ChimeraX, PyMOL, Blender, Illustrator
-

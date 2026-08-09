@@ -38,16 +38,17 @@ $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
 
-// NYU colors
-$nyu-violet-color: #57068c !default;
-$nyu-ultra-violet-color: #8900e1 !default;
-$nyu-deep-violet-color: #330662 !default;
-$nyu-custom-deep-violet-color: #1d1c1c !default;
-$nyu-medium-violet-1-color: #702b9d !default;
-$nyu-medium-violet-2-color: #7b5aa6 !default;
-$nyu-medium-violet-3-color: #cc66ff !default;
-$nyu-light-violet-1-color: #ab82c5 !default;
-$nyu-light-violet-2-color: #eee6f3 !default;
+// Apple-inspired system palette: restrained blue, indigo, and purple accents.
+$apple-blue-color: #007AFF !default;
+$apple-blue-dark-mode-color: #0A84FF !default;
+$apple-indigo-color: #5856D6 !default;
+$apple-indigo-dark-mode-color: #7D7AFF !default;
+$apple-purple-color: #AF52DE !default;
+$apple-purple-dark-mode-color: #BF5AF2 !default;
+$apple-label-color: #1D1D1F !default;
+$apple-secondary-label-color: #6E6E73 !default;
+$apple-separator-color: #D2D2D7 !default;
+$apple-surface-color: #F5F5F7 !default;
 
 
 // Global typography (100% ≈ browser default, typically 16px)

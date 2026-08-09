@@ -1,3 +1,12 @@
+- title: Courses at Rochester Institute of Technology
+  type: time_table
+  contents:
+    - title: Fall 2026 MATH 182 (Calculus II)
+      year: 08/2026 - 12/2026
+      description:
+        - Lecture Instructor
+        - Tuesdays and Thursdays, 12:00 PM - 1:50 PM
+
 - title: Recitations at Michigan State University
   type: time_table
   contents:
