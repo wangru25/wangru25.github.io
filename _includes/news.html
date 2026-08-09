@@ -4,16 +4,12 @@
               <h3 class="card-title">News</h3>
               <div>
             {% if site.news != blank -%}
-            {%- assign news_size = site.news | size -%}
+            {%- assign all_news_size = site.news | size -%}
+            {%- assign news = site.news | where: "homepage", true | reverse -%}
+            {%- assign news_size = news | size -%}
             <div class="table-responsive" {% if site.news_scrollable and news_size > 3 %}style="max-height: 360px; overflow-y: auto;"{% endif %}>
               <table class="table table-sm table-borderless">
-              {%- assign news = site.news | reverse -%}
-              {% if site.news_limit %}
-              {% assign news_limit = site.news_limit %}
-              {% else %}
-              {% assign news_limit = news_size %}
-              {% endif %}
-              {% for item in news limit: news_limit %}
+              {% for item in news %}
                 <tr>
                   <!-- <th scope="row" class="font-weight-bold">{{ item.date | date: "%b %-d, %Y" }}</th> -->
                   <th scope="row" class="font-weight-bold">{{ item.date | date: "%m/%d/%Y" }}</th>
@@ -28,6 +24,11 @@
               {%- endfor %}
               </table>
             </div>
+            {% if all_news_size > news_size %}
+              <div class="text-right mt-2">
+                <a class="news-archive-link" href="{{ '/news/' | relative_url }}">View all news &rarr;</a>
+              </div>
+            {% endif %}
           {%- else -%}
             <p>No news so far...</p>
           {%- endif %}

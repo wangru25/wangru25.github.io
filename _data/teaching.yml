@@ -7,6 +7,16 @@
         - Lecture Instructor
         - Tuesdays and Thursdays, 12:00 PM - 1:50 PM
 
+- title: Small Class at Michigan State University
+  type: time_table
+  contents:
+    - title: SS23 MTH234 Section SCN20
+      year: 01/2023 - 04/2023
+      description:
+        - Lecture Instructor
+        - Multivariable Calculus
+        - Monday, Tuesday, Thursday, 6:00PM - 7:10PM, A326 WH
+
 - title: Recitations at Michigan State University
   type: time_table
   contents:
@@ -22,17 +32,6 @@
         - Recitation Instructor
         - Multivariable Calculus
         - Thursday, 3:00PM - 3:50PM, A216 WH
-
-
-- title: Small Class at Michigan State University
-  type: time_table
-  contents:
-    - title: SS23 MTH234 Section SCN20
-      year: 01/2023 - 04/2023
-      description: 
-        - Lecture Instructor
-        - Multivariable Calculus
-        - Monday, Tuesday, Thursday, 6:00PM - 7:10PM, A326 WH
 
 - title: Coding Tutorial at Michigan State University
   type: time_table

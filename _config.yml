@@ -136,7 +136,7 @@ collections:
     permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 15 # leave blank to include all the news in the `_news` folder
+# Add `homepage: true` to a news item's front matter to feature it on the About page.
 
 # Presentations (/talks/): each time_table section scrolls after this height (CSS length, e.g. 420px, 28rem)
 talks_scroll_max_height: 420px

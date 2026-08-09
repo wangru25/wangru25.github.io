@@ -375,6 +375,10 @@ a {
 // 11. CUSTOM SCROLLBAR
 // =============================================================================
 
+html {
+  scrollbar-color: #{$apple-indigo-color} var(--global-bg-color);
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -385,11 +389,11 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #{$apple-blue-color}, #{$apple-purple-color});
+  background: #{$apple-indigo-color};
   border-radius: 4px;
   
   &:hover {
-    background: linear-gradient(45deg, #{$apple-purple-color}, #{$apple-blue-color});
+    background: #{$apple-indigo-hover-color};
   }
 }
 
@@ -486,12 +490,12 @@ a {
   }
 
   &::-webkit-scrollbar-thumb {
-    background: #{$apple-blue-color};
+    background: #{$apple-indigo-color};
     border-radius: 8px;
     border: 2px solid #e0e0e0;
 
     &:hover {
-      background: #{$apple-indigo-color};
+      background: #{$apple-indigo-hover-color};
     }
   }
 
@@ -500,7 +504,7 @@ a {
   }
 
   scrollbar-width: thin;
-  scrollbar-color: #{$apple-blue-color} #e0e0e0;
+  scrollbar-color: #{$apple-indigo-color} #e0e0e0;
 }
 
 // About page: Research Interests / News sit after an empty floated .profile spacer; without
@@ -565,12 +569,12 @@ a {
     }
     
     &::-webkit-scrollbar-thumb {
-      background: #{$apple-blue-color} !important;
+      background: #{$apple-indigo-color} !important;
       border-radius: 8px !important;
       border: 2px solid #e0e0e0 !important;
       
       &:hover {
-        background: #{$apple-indigo-color} !important;
+        background: #{$apple-indigo-hover-color} !important;
       }
     }
     
@@ -581,7 +585,7 @@ a {
     
     // 备用滚动条样式（Firefox等）
     scrollbar-width: thin;
-    scrollbar-color: #{$apple-blue-color} #e0e0e0;
+    scrollbar-color: #{$apple-indigo-color} #e0e0e0;
   }
   
   // 新闻条目样式
