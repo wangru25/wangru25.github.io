@@ -5,4 +5,4 @@ inline: true
 homepage: true
 ---
 
-Joined School of Mathematics and Statistics @ Rochester Institute of Technology as an Assistant Professor
+Joined School of Mathematics and Statistics @ Rochester Institute of Technology as an Assistant Professor. Grateful to be supported by the Simons Empire Faculty Fellowship.

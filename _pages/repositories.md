@@ -1,11 +1,20 @@
 ---
 layout: page
-permalink: /repositories/
-title: Repositories
+permalink: /resources/
+title: Resources
 description: 
 nav: true
 nav_order: 7
 ---
+
+<h3 class="card-title font-weight-medium">Data Libraries</h3>
+
+*Courtesy of [Prof. Guo-Wei Wei](https://guowei-uga.github.io/resources/).*
+
+- [2D data library for chemical, biophysical, and biological information](https://guowei-uga.github.io/assets/html/repositories/data-library/2d.html)
+- [3D data library for chemical, biophysical, and biological information](https://guowei-uga.github.io/assets/html/repositories/data-library/3d.html)
+
+<h3 class="card-title font-weight-medium mt-4">Repositories</h3>
 
 <!-- ## GitHub Users
 

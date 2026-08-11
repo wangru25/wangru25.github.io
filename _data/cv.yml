@@ -6,24 +6,7 @@
     - name: CV PDF
       value: Full form of CV can be viewed here <a href="../assets/pdf/RuiWangCV.pdf"><i class="fas fa-file-pdf"></i></a>
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Ph.D.
-      institution: Michigan State University, East Lansing, MI 
-      year: 09/2017 - 07/2022
-      description:
-        - Applied Mathematics
-        - Advisor Prof. Guowei Wei
-        
-    - title: B.S.
-      institution: Xi'an Jiaotong University, Xi'an, Shaanxi, China
-      year: 09/2013 - 06/2017
-      description:
-        - Mathematics and Applied Mathematics (Honors Science Program)
-        - Advisor Prof. Yanni Xiao
-
-- title: Experience
+- title: Employment
   type: time_table
   contents:
     - title: Assistant Professor
@@ -38,18 +21,35 @@
       institution: Michigan State University, East Lansing, MI 
       year: 08/2022 - 10/2023
 
-    - title: Research Assistant
-      institution: Michigan State University, East Lansing, MI 
-      year: 01/2019 - 08/2022
+    # - title: Research Assistant
+    #   institution: Michigan State University, East Lansing, MI
+    #   year: 01/2019 - 08/2022
 
-    - title: Teaching Assistant
-      institution: Michigan State University, East Lansing, MI 
-      year: 08/2017 - 12/2018
+    # - title: Teaching Assistant
+    #   institution: Michigan State University, East Lansing, MI
+    #   year: 08/2017 - 12/2018
 
-    - title: Exchange Student
-      institution: Michigan State University, East Lansing, MI 
-      year: 01/2016 - 05/2016
-      
+    # - title: Exchange Student
+    #   institution: Michigan State University, East Lansing, MI
+    #   year: 01/2016 - 05/2016
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D.
+      institution: Michigan State University, East Lansing, MI
+      year: 09/2017 - 07/2022
+      description:
+        - Applied Mathematics
+        - Advisor Prof. Guowei Wei
+
+    - title: B.S.
+      institution: Xi'an Jiaotong University, Xi'an, Shaanxi, China
+      year: 09/2013 - 06/2017
+      description:
+        - Mathematics and Applied Mathematics (Honors Science Program)
+        - Advisor Prof. Yanni Xiao
+
 # - title: Packages Developed
 #   type: time_table
 #   contents:

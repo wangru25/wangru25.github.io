@@ -523,6 +523,23 @@ html {
   margin-top: 0 !important;
 }
 
+// Institution names on About use each university's primary brand color without links.
+.institution-rit {
+  color: #f76902;
+}
+
+.institution-nyu {
+  color: #57068c;
+}
+
+.institution-msu {
+  color: #18453b;
+}
+
+.institution-xjtu {
+  color: #9d2235;
+}
+
 // Profile photo: default theme uses 30% width — too large on wide containers; cap size
 @media (min-width: 576px) {
   .post .profile {
